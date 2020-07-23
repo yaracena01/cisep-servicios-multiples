@@ -1,0 +1,299 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout_maintenance.cshtml";
+}
+
+
+<div class="container">
+    <div class="table-wrapper">
+        <div class="table-title">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2><b>Servicios</b></h2>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="fas fa-plus-circle"></i><span>Agregar Nuevo</span></a>
+                </div>
+            </div>
+        </div>
+        <table id="myTable" class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Servicio
+                    </th>
+                    <th>
+                        Descripción
+                    </th>
+                    <th>
+                        Foto
+                    </th>
+                    <th>
+                        URL
+                    </th>
+                    <th>
+                        URL Dirección
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ var i = 1;}
+                @foreach (var item in ViewBag.services)
+                {
+                    <tr>
+                        <td>
+                            @i
+                        </td>
+                        <td>
+                            @item.Name
+                        </td>
+                        <td>
+                            @item.Description
+                        </td>
+                        <td>
+                            <img class="img-fluid" style="height: 200px;width: auto;" src="~/imageServices/@item.Photo" />
+                        </td>
+                        <td>
+                            @item.UrlName
+                        </td>
+                        <td>
+                            @item.Url
+                        </td>
+                        <td>
+
+
+                            <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="fas fa-edit" title="Edit"></i></a>
+                            <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fas fa-trash" title="Delete"></i></a>
+                            <input type="hidden" class="id" value="@item.Id"/>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            </tbody>
+        </table>
+        @*<div class="clearfix">
+            <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+            <ul class="pagination">
+                <li class="page-item disabled"><a href="#">Previous</a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link">4</a></li>
+                <li class="page-item"><a href="#" class="page-link">5</a></li>
+                <li class="page-item"><a href="#" class="page-link">Next</a></li>
+            </ul>
+        </div>*@
+    </div>
+</div>
+<!-- Edit Modal HTML -->
+<div id="addEmployeeModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" enctype="multipart/form-data" asp-controller="Services" asp-action="Create">
+                <div class="modal-header">
+                    <h4 class="modal-title">Agregar Servicio</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Servicio</label>
+                        <input type="text" name="Name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Descripción</label>
+                        <textarea name="Description" class="form-control" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Foto</label>
+                        <div class="custom-file">
+                            <input name="Photo" type="file" class="form-control custom-file-input" />
+                            <label class="custom-file-label">Elige una imagen</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>URL</label>
+                        <input type="text" name="UrlName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>URL Dirección</label>
+                        <input type="text" name="Url" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Servicio detalle</label>
+                        <input type="text" name="Servicio_detalle" class="form-control">
+                        <a style="margin-top: 7px;" onclick="addServicesDetails()" class="btn btn-success" data-toggle="modal"><i class="fas fa-plus-circle"></i><span></span></a>
+                    </div>
+                    <table id="myTable2" class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Id
+                                </th>
+                                <th>
+                                    Servicio detalle
+                                </th>
+                                <th>
+                                    Opciones
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="services_details">
+                          
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
+                    <input type="submit" class="btn btn-success" value="Agregar">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Edit Modal HTML -->
+<div id="editEmployeeModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" enctype="multipart/form-data" asp-controller="Services" asp-action="Edit">
+                <div class="modal-header">
+                    <h4 class="modal-title">Editar Servicio</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Servicio</label>
+                        <input type="text" name="Name" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Descripción</label>
+                        <textarea name="Description" id="description" class="form-control" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Foto</label>
+                        <div class="custom-file">
+                            <input name="Photo" type="file" id="photo" class="form-control custom-file-input"/>
+                            <label class="custom-file-label">Clic aqui para cambiar imagen</label>
+                        </div>
+                    </div>
+                    <img id="image_service" class="img-fluid" style="height: 200px;width: auto; margin-bottom: 15px;"  />
+                    <div class="form-group">
+                        <label>URL</label>
+                        <input type="text" name="UrlName" id="urlName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>URL Dirección</label>
+                        <input type="text" name="Url" id="url" class="form-control">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
+                    <input type="submit" class="btn btn-info" value="Guardar">
+                    <input type="hidden" name="Id" id="id" />
+                    <input type="hidden" name="ExistingPhotoPath" id="ExistingPhotoPath" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Delete Modal HTML -->
+<div id="deleteEmployeeModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" asp-controller="Services" asp-action="Delete"> 
+                <div class="modal-header">
+                    <h4 class="modal-title">Eliminar Servicio</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Estas seguro de que quieres eliminar este registro?</p>
+                    <p class="text-danger"><small style="font-weight: bold;">Esta acción no puede deshacerse.</small></p>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
+                    <input type="submit" class="btn btn-danger" value="Eliminar">
+                    <input type="hidden" id="id" name="Id"  />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+
+    <script>
+        $(document).ready(function () {
+           
+            //$('#myTable').DataTable();
+
+            $('.custom-file-input').on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).next('.custom-file-label').html(fileName);
+            });
+
+            $('table .delete').on("click", function () {
+                var id = $(this).parent().find('.id').val();             
+                $("#deleteEmployeeModal #id").val(id);
+            });
+
+           
+            $('table .edit').on("click", function () {
+                var id = $(this).parent().find('.id').val();
+                $.ajax({
+                    type: 'Get',
+                    url: '/Services/Edit/' + id,
+                    success: function (services) {
+                        console.log("~/imageServices/" + services.ExistingPhotoPath, services.description);
+                        $("#editEmployeeModal #id").val(services.id);
+                        $("#editEmployeeModal #name").val(services.name);
+                        $("#editEmployeeModal #description").val(services.description);
+                        $("#editEmployeeModal #image_service").attr("src", "/imageServices/" + services.photo);                    
+                        $("#editEmployeeModal #url").val(services.url);
+                        $("#editEmployeeModal #urlName").val(services.urlName);
+                        $("#editEmployeeModal #ExistingPhotoPath").val(services.photo);
+                    }
+                })
+
+            });
+        });
+        var services_details = [];
+        var idS = 0;
+
+        function addServicesDetails() {
+            var name = $('[name="Servicio_detalle"]').val();
+            var n = idS + 1;
+            
+            services_details.push({ 'id': n, 'name': name });
+            console.log(services_details);
+            
+            $("#services_details").append('<tr>' +
+                '<td>' + services_details[idS].id + '</td>' +
+                '<td>' + services_details[idS].name + '</td>' +
+                '<td> <a class="deleteSD" data-ids=' +  services_details[idS].id + ' > <i class="fas fa-trash" title="Delete"></i></a> </td>' + '</tr>'
+            );
+            idS++
+            $('[name="Servicio_detalle"]').val('');
+        }
+        $('body').on('click', '.deleteSD', function () {
+            var id = $(this).data("ids"); 
+            console.log(id);
+            services_details.forEach(function (currentValue, index, arr) {           
+                if (services_details[index].id == id) {
+                    console.log(id, services_details[index].id);
+                    delete services_details[index];
+                }
+            })
+        
+            $(this).parents('tr').remove();
+        });
+        
+    </script>
+}

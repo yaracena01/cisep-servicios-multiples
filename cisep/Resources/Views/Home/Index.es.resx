@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1080p HD video with night vision" xml:space="preserve">
+    <value>Video HD de 1080p con visión nocturna</value>
+  </data>
+  <data name="24/7 Monitoring" xml:space="preserve">
+    <value>Monitoreo 24/7</value>
+  </data>
+  <data name="30-day Car Temporary Tags" xml:space="preserve">
+    <value>Etiquetas temporales para automóviles de 30 días</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Nosotros</value>
+  </data>
+  <data name="Acknowledgments" xml:space="preserve">
+    <value>Expresiones de gratitud</value>
+  </data>
+  <data name="Administering Oaths" xml:space="preserve">
+    <value>Administrar juramentos</value>
+  </data>
+  <data name="Adoption Agencies" xml:space="preserve">
+    <value>Agencias de adopción</value>
+  </data>
+  <data name="Adoption Documents" xml:space="preserve">
+    <value>Documentos de adopción</value>
+  </data>
+  <data name="Affidavits" xml:space="preserve">
+    <value>Declaraciones Juradas</value>
+  </data>
+  <data name="Affirmations" xml:space="preserve">
+    <value>Afirmaciones</value>
+  </data>
+  <data name="AHD Camera Security  Systems" xml:space="preserve">
+    <value>Sistemas de seguridad de cámara AHD</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="Annual Reports" xml:space="preserve">
+    <value>Informes anuales</value>
+  </data>
+  <data name="Architectural Website Design" xml:space="preserve">
+    <value>Diseño arquitectónico de sitios web</value>
+  </data>
+  <data name="Artist Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de artistas</value>
+  </data>
+  <data name="As America’s most reliable translation service provider, CISEP Multi-Services has a long history of managing complex translation projects in multiple languages for corporations of all sizes." xml:space="preserve">
+    <value>Como el proveedor de servicios de traducción más confiable de Estados Unidos, CISEP Multi-Services tiene una larga historia de gestión de proyectos de traducción complejos en varios idiomas para corporaciones de todos los tamaños.</value>
+  </data>
+  <data name="Attorney Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de abogados</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="Author Website Design" xml:space="preserve">
+    <value>Diseño del sitio web del autor</value>
+  </data>
+  <data name="Auto Salvage Titles" xml:space="preserve">
+    <value>Títulos de recuperación automática</value>
+  </data>
+  <data name="Auto Title Surety Bonds" xml:space="preserve">
+    <value>Auto Title Surety Bonds</value>
+  </data>
+  <data name="Auto Title Transfers" xml:space="preserve">
+    <value>Transferencias automáticas de títulos</value>
+  </data>
+  <data name="Auto Title Transfers1" xml:space="preserve">
+    <value>Transferencias automáticas de títulos</value>
+  </data>
+  <data name="Automatic Alarm recordings" xml:space="preserve">
+    <value>Grabaciones automáticas de alarma</value>
+  </data>
+  <data name="B2B Website Design" xml:space="preserve">
+    <value>Diseño de sitios web B2B</value>
+  </data>
+  <data name="BACK" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="Back Taxes" xml:space="preserve">
+    <value>Impuestos atrasados</value>
+  </data>
+  <data name="Banking Resolution" xml:space="preserve">
+    <value>Resolución bancaria</value>
+  </data>
+  <data name="Bankruptcies" xml:space="preserve">
+    <value>Quiebras</value>
+  </data>
+  <data name="Banner Design" xml:space="preserve">
+    <value>Diseño de banner</value>
+  </data>
+  <data name="Besides being an unique name for our corporation, it means COMPLETE, IMPACTING, SECURE, SUCCESSFUL AND PROFESSIONAL. When we looked for a name that represented the vision of our corporation, a brighter idea could not come to our minds. CISEP has created trainings, resources, study guides and more to empower the community and motivate them to get ahead and create a better future for our children and family members. CISEP is not just another corporation, it is the only corporation that invests in the financial and the intellectual well-being of its community." xml:space="preserve">
+    <value>Además de ser un nombre único para nuestra corporación, significa COMPLETO, IMPACTANTE, SEGURO, EXITOSO Y PROFESIONAL. Cuando buscamos un nombre que representara la visión de nuestra corporación, no se nos ocurrió una idea más brillante. CISEP ha creado capacitaciones, recursos, guías de estudio y más para empoderar a la comunidad y motivarlos a avanzar y crear un futuro mejor para nuestros hijos y miembros de la familia. CISEP no es solo otra corporación, es la única corporación que invierte en el bienestar financiero e intelectual de su comunidad.</value>
+  </data>
+  <data name="Big Trucks Title Transfers" xml:space="preserve">
+    <value>Transferencias de títulos de Big Trucks</value>
+  </data>
+  <data name="Birth Certificate" xml:space="preserve">
+    <value>Certificado de nacimiento</value>
+  </data>
+  <data name="Birth Certificate1" xml:space="preserve">
+    <value>Certificado de nacimiento</value>
+  </data>
+  <data name="Boats" xml:space="preserve">
+    <value>Barcos</value>
+  </data>
+  <data name="Book now" xml:space="preserve">
+    <value>Reservar ahora</value>
+  </data>
+  <data name="Booking and Payroll Services" xml:space="preserve">
+    <value>Servicios de reserva y nómina</value>
+  </data>
+  <data name="Brochure Design" xml:space="preserve">
+    <value>Diseño de folletos</value>
+  </data>
+  <data name="Business Cards Design" xml:space="preserve">
+    <value>Diseño de tarjetas de presentación</value>
+  </data>
+  <data name="Business Meetings" xml:space="preserve">
+    <value>Reuniones de negocios</value>
+  </data>
+  <data name="Businesses Taxes" xml:space="preserve">
+    <value>Impuestos comerciales</value>
+  </data>
+  <data name="Businesses Trasnlations" xml:space="preserve">
+    <value>Traslados comerciales</value>
+  </data>
+  <data name="Buyer Side Only" xml:space="preserve">
+    <value>Solo comprador</value>
+  </data>
+  <data name="Buyer/Seller" xml:space="preserve">
+    <value>Comprador vendedor</value>
+  </data>
+  <data name="Car Dealerships" xml:space="preserve">
+    <value>Concesionarios de autos</value>
+  </data>
+  <data name="Car Lost / Duplicate Titles" xml:space="preserve">
+    <value>Car Lost / Duplicate Titles</value>
+  </data>
+  <data name="Car Lost Titles" xml:space="preserve">
+    <value>Car Lost Titles</value>
+  </data>
+  <data name="Cctv Camera Security  Systems" xml:space="preserve">
+    <value>Sistemas de seguridad de cámaras de CCTV</value>
+  </data>
+  <data name="Certificate of C corporations(C corp.)" xml:space="preserve">
+    <value>Certificado de corporaciones C (C corp.)</value>
+  </data>
+  <data name="Certificate of DBA" xml:space="preserve">
+    <value>Certificado de DBA</value>
+  </data>
+  <data name="Certificate of Incorporation" xml:space="preserve">
+    <value>Certificado de incorporación</value>
+  </data>
+  <data name="Certificate of LLC" xml:space="preserve">
+    <value>Certificado de LLC</value>
+  </data>
+  <data name="Certificate of Non-Profits" xml:space="preserve">
+    <value>Certificado de sin fines de lucro</value>
+  </data>
+  <data name="Certificate of Organization" xml:space="preserve">
+    <value>Certificado de organización</value>
+  </data>
+  <data name="Certificate of S corporations(S corp.)" xml:space="preserve">
+    <value>Certificado de corporaciones S (S corp.)</value>
+  </data>
+  <data name="Charge-offs" xml:space="preserve">
+    <value>Descargos</value>
+  </data>
+  <data name="Child Support" xml:space="preserve">
+    <value>Manutención de los hijos</value>
+  </data>
+  <data name="Child Support Agreement" xml:space="preserve">
+    <value>Acuerdo de manutención infantil</value>
+  </data>
+  <data name="Church Website Design" xml:space="preserve">
+    <value>Diseño del sitio web de la iglesia</value>
+  </data>
+  <data name="CISEP Multi-Services Help that your family, friends, employees, and property are safe.Our security systems start with a Digital Video Recorder (DVR) or Network Video Recorder (NVR) that include security grade hard drives that can store days, weeks, or even months of security footage. These security camera systems also feature remote access via the Internet, giving you peace of mind no matter where you are." xml:space="preserve">
+    <value>Los servicios múltiples de CISEP ayudan a que su familia, amigos, empleados y propiedades estén seguros. Nuestros sistemas de seguridad comienzan con una grabadora de video digital (DVR) o una grabadora de video en red (NVR) que incluye discos duros de grado de seguridad que pueden almacenar días, semanas, o incluso meses de imágenes de seguridad. Estos sistemas de cámaras de seguridad también cuentan con acceso remoto a través de Internet, lo que le brinda tranquilidad sin importar dónde se encuentre.</value>
+  </data>
+  <data name="CISEP Multi-Services is company has the tools and resources you need to incorporate data-driven marketing as a main component and influencer of your web design strategy." xml:space="preserve">
+    <value>CISEP Multi-Services es una compañía que tiene las herramientas y los recursos que necesita para incorporar el marketing basado en datos como un componente principal e influyente de su estrategia de diseño web.</value>
+  </data>
+  <data name="Citizenship &amp; Naturalization" xml:space="preserve">
+    <value>Ciudadanía y naturalización</value>
+  </data>
+  <data name="Click this box if you want to continue" xml:space="preserve">
+    <value>Cliquea esta casilla si desea continuar</value>
+  </data>
+  <data name="Client Meetings" xml:space="preserve">
+    <value>Reuniones de clientes</value>
+  </data>
+  <data name="Collections" xml:space="preserve">
+    <value>Colecciones</value>
+  </data>
+  <data name="College Applications" xml:space="preserve">
+    <value>Solicitudes para la universidad</value>
+  </data>
+  <data name="Commercial Documents" xml:space="preserve">
+    <value>Documentos comerciales</value>
+  </data>
+  <data name="Complete Security Systems" xml:space="preserve">
+    <value>Sistemas completos de seguridad</value>
+  </data>
+  <data name="Computer Hardware Upgrades" xml:space="preserve">
+    <value>Actualizaciones de hardware de computadora</value>
+  </data>
+  <data name="Construction Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de construcción</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="Copy Certifications" xml:space="preserve">
+    <value>Copiar certificaciones</value>
+  </data>
+  <data name="Copy of vehicle title" xml:space="preserve">
+    <value>Copia del título del vehículo</value>
+  </data>
+  <data name="Corparate Tax Preparation" xml:space="preserve">
+    <value>Preparación de impuestos corporativos</value>
+  </data>
+  <data name="Corporate Resolution" xml:space="preserve">
+    <value>Resolución corporativa</value>
+  </data>
+  <data name="Court" xml:space="preserve">
+    <value>Interpretación de la corte</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Crédito</value>
+  </data>
+  <data name="Credit Repair" xml:space="preserve">
+    <value>Reparación de Crédito</value>
+  </data>
+  <data name="Credit Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de crédito</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Créditos</value>
+  </data>
+  <data name="Data Backup and Recovery" xml:space="preserve">
+    <value>Copia de seguridad y recuperación de datos</value>
+  </data>
+  <data name="Dc Jack Repairs Services" xml:space="preserve">
+    <value>Servicios de reparaciones de Dc Jack</value>
+  </data>
+  <data name="Death Certificate" xml:space="preserve">
+    <value>Acta de defunción</value>
+  </data>
+  <data name="Death Certificates" xml:space="preserve">
+    <value>Certificados de defunción</value>
+  </data>
+  <data name="Death Certificates1" xml:space="preserve">
+    <value>Certificados de defunción</value>
+  </data>
+  <data name="Deductions" xml:space="preserve">
+    <value>Deducciones</value>
+  </data>
+  <data name="Deed of Trust" xml:space="preserve">
+    <value>Escritura de fideicomiso</value>
+  </data>
+  <data name="Dental Website Design" xml:space="preserve">
+    <value>Diseño de sitio web dental</value>
+  </data>
+  <data name="Desktop Repairs Services" xml:space="preserve">
+    <value>Servicios de reparaciones de escritorio</value>
+  </data>
+  <data name="Digital IP" xml:space="preserve">
+    <value>IP digital</value>
+  </data>
+  <data name="Divorce Certificate" xml:space="preserve">
+    <value>Certificado de divorcio</value>
+  </data>
+  <data name="Divorce Certificate1" xml:space="preserve">
+    <value>Certificado de divorcio</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="DVR Security Systems" xml:space="preserve">
+    <value>Sistemas de seguridad DVR</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Correo</value>
+  </data>
+  <data name="Email Signature Design" xml:space="preserve">
+    <value>Diseño de firma de correo electrónico</value>
+  </data>
+  <data name="Emails" xml:space="preserve">
+    <value>Correos electrónicos</value>
+  </data>
+  <data name="Employee Interviews" xml:space="preserve">
+    <value>Entrevistas a empleados</value>
+  </data>
+  <data name="Employee Letters" xml:space="preserve">
+    <value>Cartas de empleados</value>
+  </data>
+  <data name="Employment Agreement" xml:space="preserve">
+    <value>Acuerdo de empleo</value>
+  </data>
+  <data name="Employment Contract" xml:space="preserve">
+    <value>Contrato de empleo</value>
+  </data>
+  <data name="Employment Offer Letter" xml:space="preserve">
+    <value>Carta de oferta de empleo</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Ingles</value>
+  </data>
+  <data name="Enter the code we send you by mail to make flexible payment" xml:space="preserve">
+    <value>Ingrese el código que le enviamos por correo para hacer un pago flexible</value>
+  </data>
+  <data name="Envelope Design" xml:space="preserve">
+    <value>Diseño de sobres</value>
+  </data>
+  <data name="Equipment Warranty" xml:space="preserve">
+    <value>Garantía de equipo</value>
+  </data>
+  <data name="Estimated Taxes" xml:space="preserve">
+    <value>Impuestos estimados</value>
+  </data>
+  <data name="Excise tax" xml:space="preserve">
+    <value>Impuesto al consumo</value>
+  </data>
+  <data name="Experienced &amp; Professional" xml:space="preserve">
+    <value>Profesional con experiencia</value>
+  </data>
+  <data name="Federal Income Tax" xml:space="preserve">
+    <value>Impuestos federales</value>
+  </data>
+  <data name="Federal Income Tax Forms" xml:space="preserve">
+    <value>Formularios de impuestos federales sobre la renta</value>
+  </data>
+  <data name="Federal Interest Rate" xml:space="preserve">
+    <value>Tasa de interés federal</value>
+  </data>
+  <data name="Federal Tax Forms" xml:space="preserve">
+    <value>Formularios de impuestos federales</value>
+  </data>
+  <data name="File Income Tax" xml:space="preserve">
+    <value>Archivo de impuesto sobre la renta</value>
+  </data>
+  <data name="File Taxes" xml:space="preserve">
+    <value>Archivo de impuestos</value>
+  </data>
+  <data name="Financial Translations" xml:space="preserve">
+    <value>Traducciones financieras</value>
+  </data>
+  <data name="Financial Website Design" xml:space="preserve">
+    <value>Diseño de sitio web financiero</value>
+  </data>
+  <data name="Fitness Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de fitness</value>
+  </data>
+  <data name="Flyers Design" xml:space="preserve">
+    <value>Diseño de volantes</value>
+  </data>
+  <data name="Follow us on Social Media" xml:space="preserve">
+    <value>Síguenos en las redes sociales</value>
+  </data>
+  <data name="Foreclouse" xml:space="preserve">
+    <value>Juicio hipotecario</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Formas</value>
+  </data>
+  <data name="Forms and Surveys" xml:space="preserve">
+    <value>Formularios y encuestas</value>
+  </data>
+  <data name="Full HD color video" xml:space="preserve">
+    <value>Video en color Full HD</value>
+  </data>
+  <data name="General Tax Problems" xml:space="preserve">
+    <value>Problemas generales de impuestos</value>
+  </data>
+  <data name="Get In Touch Using The Form" xml:space="preserve">
+    <value>Póngase en contacto usando el formulario</value>
+  </data>
+  <data name="Grants Deeds" xml:space="preserve">
+    <value>Becas Escrituras</value>
+  </data>
+  <data name="Greencards" xml:space="preserve">
+    <value>Greencards</value>
+  </data>
+  <data name="HD Resolution &amp; enhanced night vision" xml:space="preserve">
+    <value>Resolución HD y visión nocturna mejorada</value>
+  </data>
+  <data name="Healthcare Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de salud</value>
+  </data>
+  <data name="Hearings" xml:space="preserve">
+    <value>Audiencias</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Home Automation available" xml:space="preserve">
+    <value>Domótica disponible</value>
+  </data>
+  <data name="Hospitals" xml:space="preserve">
+    <value>Hospitales</value>
+  </data>
+  <data name="Hospitals Forms and Patient Records" xml:space="preserve">
+    <value>Formularios de hospitales y registros de pacientes</value>
+  </data>
+  <data name="Hotel Website Design" xml:space="preserve">
+    <value>Diseño del sitio web del hotel</value>
+  </data>
+  <data name="HVAC Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de HVAC</value>
+  </data>
+  <data name="HVAC Website Design1" xml:space="preserve">
+    <value>Diseño de sitios web de HVAC</value>
+  </data>
+  <data name="I agree with CISEP-Multi-Services's stated" xml:space="preserve">
+    <value>Estoy de acuerdo con CISEP-Multi-Services declaró</value>
+  </data>
+  <data name="Iconme Tax Caculator" xml:space="preserve">
+    <value>Iconme Tax Caculator</value>
+  </data>
+  <data name="Immigrant / Visitor Visas" xml:space="preserve">
+    <value>Visas de Inmigrante / Visitante</value>
+  </data>
+  <data name="Immigration and Passport Photos" xml:space="preserve">
+    <value>Fotos de inmigración y pasaporte</value>
+  </data>
+  <data name="Immigration Documents" xml:space="preserve">
+    <value>Documentos de inmigración</value>
+  </data>
+  <data name="Immigration Forms Preparation and  Interpretation" xml:space="preserve">
+    <value>Preparación e interpretación de formularios de inmigración</value>
+  </data>
+  <data name="Income Tax" xml:space="preserve">
+    <value>Impuesto sobre la renta</value>
+  </data>
+  <data name="Income Tax Forms" xml:space="preserve">
+    <value>Formularios de impuesto sobre la renta</value>
+  </data>
+  <data name="Income tax1" xml:space="preserve">
+    <value>Impuesto sobre la renta</value>
+  </data>
+  <data name="Indoor &amp; Outdoor Cameras (optional)" xml:space="preserve">
+    <value>Cámaras interiores y exteriores (opcional)</value>
+  </data>
+  <data name="Instructions, Manuals and Users Guides" xml:space="preserve">
+    <value>Instrucciones, manuales y guías de usuario</value>
+  </data>
+  <data name="Insurance Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de seguros</value>
+  </data>
+  <data name="Interes Rates Caculator" xml:space="preserve">
+    <value>Calculadora de tasas de interés</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Factura</value>
+  </data>
+  <data name="Invoice Design" xml:space="preserve">
+    <value>Diseño de factura</value>
+  </data>
+  <data name="IRS E-File Provider" xml:space="preserve">
+    <value>Proveedor de archivos electrónicos del IRS</value>
+  </data>
+  <data name="IRS Income Tax" xml:space="preserve">
+    <value>Impuesto sobre la renta del IRS</value>
+  </data>
+  <data name="IT Planning and Business Advisory Services" xml:space="preserve">
+    <value>Planificación de TI y servicios de asesoramiento empresarial</value>
+  </data>
+  <data name="ITIn Aplication&amp; Renewals" xml:space="preserve">
+    <value>ITIn Aplicación y Renovaciones</value>
+  </data>
+  <data name="Jewellery Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de joyería</value>
+  </data>
+  <data name="Judgements" xml:space="preserve">
+    <value>Juicios</value>
+  </data>
+  <data name="Language:" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="Laptop Repairs Services" xml:space="preserve">
+    <value>Servicios de reparación de computadoras portátiles</value>
+  </data>
+  <data name="Laptop Screen Repairs Services" xml:space="preserve">
+    <value>Servicios de reparación de pantallas para laptop</value>
+  </data>
+  <data name="Late Payments" xml:space="preserve">
+    <value>Pagos atrasados</value>
+  </data>
+  <data name="Lawyer Website Design" xml:space="preserve">
+    <value>Abogado Diseño de sitios web</value>
+  </data>
+  <data name="Legal Documents Such as Contracts" xml:space="preserve">
+    <value>Documentos legales como contratos</value>
+  </data>
+  <data name="Letter of Recommendation" xml:space="preserve">
+    <value>Carta de recomendación</value>
+  </data>
+  <data name="Letterhead Design" xml:space="preserve">
+    <value>Diseño de membrete</value>
+  </data>
+  <data name="License Plates" xml:space="preserve">
+    <value>Matrículas</value>
+  </data>
+  <data name="Licensing" xml:space="preserve">
+    <value>Licencia</value>
+  </data>
+  <data name="Life Insurance Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de seguros de vida</value>
+  </data>
+  <data name="Logo For Apparel Brands" xml:space="preserve">
+    <value>Logotipo para marcas de ropa</value>
+  </data>
+  <data name="Logo For Beer Brewery" xml:space="preserve">
+    <value>Logotipo para cervecería</value>
+  </data>
+  <data name="Logo For Blogs" xml:space="preserve">
+    <value>Logotipo para blogs</value>
+  </data>
+  <data name="Logo For Companies" xml:space="preserve">
+    <value>Logotipo para empresas</value>
+  </data>
+  <data name="Logo For Gamers" xml:space="preserve">
+    <value>Logotipo para jugadores</value>
+  </data>
+  <data name="Logo For Restaurants" xml:space="preserve">
+    <value>Logo para restaurantes</value>
+  </data>
+  <data name="Logo For Small Business" xml:space="preserve">
+    <value>Logotipo para pequeñas empresas</value>
+  </data>
+  <data name="Logo For Wedsites" xml:space="preserve">
+    <value>Logotipo para Wedsites</value>
+  </data>
+  <data name="Logo For Youtube Channels" xml:space="preserve">
+    <value>Logotipo para canales de Youtube</value>
+  </data>
+  <data name="Logos Design" xml:space="preserve">
+    <value>Diseño de logotipos</value>
+  </data>
+  <data name="Logos Design for google Business Cover" xml:space="preserve">
+    <value>Diseño de logotipos para google Business Cover</value>
+  </data>
+  <data name="Lost Titles" xml:space="preserve">
+    <value>Títulos perdidos</value>
+  </data>
+  <data name="Malware Virus Removal" xml:space="preserve">
+    <value>Eliminación de virus de malware</value>
+  </data>
+  <data name="Marketing Collateral and Advertising Pieces" xml:space="preserve">
+    <value>Material y piezas de publicidad</value>
+  </data>
+  <data name="Marriage Certificate" xml:space="preserve">
+    <value>Certificado de matrimonio</value>
+  </data>
+  <data name="Maximum INCOME TAX Refunds" xml:space="preserve">
+    <value>Reembolsos máximos de impuestos sobre la renta</value>
+  </data>
+  <data name="Medical Appointments" xml:space="preserve">
+    <value>Citas médicas</value>
+  </data>
+  <data name="Medical Articles" xml:space="preserve">
+    <value>Artículos médicos</value>
+  </data>
+  <data name="Medical Bills" xml:space="preserve">
+    <value>Facturas médicas</value>
+  </data>
+  <data name="Medical Documents such as medical articles" xml:space="preserve">
+    <value>Documentos médicos tales como artículos médicos.</value>
+  </data>
+  <data name="Medical Records" xml:space="preserve">
+    <value>Registros médicos</value>
+  </data>
+  <data name="Medical Website Design" xml:space="preserve">
+    <value>Diseño de sitio web médico</value>
+  </data>
+  <data name="Menu Design" xml:space="preserve">
+    <value>Diseño de menú</value>
+  </data>
+  <data name="Mobile alert notifications" xml:space="preserve">
+    <value>Notificaciones de alerta móvil</value>
+  </data>
+  <data name="Mobile App" xml:space="preserve">
+    <value>Aplicación móvil</value>
+  </data>
+  <data name="More Information" xml:space="preserve">
+    <value>Más Información</value>
+  </data>
+  <data name="Mortgage Applications" xml:space="preserve">
+    <value>Solicitudes de hipoteca</value>
+  </data>
+  <data name="Motion detector" xml:space="preserve">
+    <value>Detector de movimiento</value>
+  </data>
+  <data name="Motorcycle Title Transfers" xml:space="preserve">
+    <value>Transferencias de títulos de motocicletas</value>
+  </data>
+  <data name="MPX" xml:space="preserve">
+    <value>MPX</value>
+  </data>
+  <data name="Multi-Services Website Design" xml:space="preserve">
+    <value>Diseño de sitios web multiservicios</value>
+  </data>
+  <data name="Music Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de música</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Network Hardware Management Services" xml:space="preserve">
+    <value>Servicios de gestión de hardware de red</value>
+  </data>
+  <data name="Network Support Services" xml:space="preserve">
+    <value>Servicios de soporte de red</value>
+  </data>
+  <data name="Non-Profit Website Design" xml:space="preserve">
+    <value>Diseño de sitios web sin fines de lucro</value>
+  </data>
+  <data name="Notarized Translations" xml:space="preserve">
+    <value>Traducciones notariales</value>
+  </data>
+  <data name="Notarized Translations1" xml:space="preserve">
+    <value>Traducciones notariales</value>
+  </data>
+  <data name="Notary Public Website Design" xml:space="preserve">
+    <value>Diseño de sitio web notarial</value>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>Noviembre</value>
+  </data>
+  <data name="Nursing Homes" xml:space="preserve">
+    <value>Hogares de ancianos</value>
+  </data>
+  <data name="Offer in Compromise" xml:space="preserve">
+    <value>Oferta en compromiso</value>
+  </data>
+  <data name="Offering the services you need and providing resources and trainings." xml:space="preserve">
+    <value>Ofrecer los servicios que necesita y proporcionar recursos y capacitaciones.</value>
+  </data>
+  <data name="Office 365" xml:space="preserve">
+    <value>Oficina 365</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organizaciones</value>
+  </data>
+  <data name="Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives" xml:space="preserve">
+    <value>Nuestros clientes son nuestros socios y no podemos imaginar un futuro mejor para nuestra empresa sin ayudarlos a alcanzar sus objetivos.</value>
+  </data>
+  <data name="Our purpose here at CISEP is to get you through those tough moments relying on our team's expertise in starting and growing companies." xml:space="preserve">
+    <value>Nuestro propósito aquí en CISEP es ayudarlo a atravesar esos momentos difíciles confiando en la experiencia de nuestro equipo para iniciar y hacer crecer empresas.</value>
+  </data>
+  <data name="Our service will help you remove any Inaccurate, Roneous, and Obsolete information on your Credit file, including:" xml:space="preserve">
+    <value>Nuestro servicio lo ayudará a eliminar cualquier información inexacta, falsa u obsoleta en su archivo de crédito, que incluye:</value>
+  </data>
+  <data name="Out of State Car Titles" xml:space="preserve">
+    <value>Títulos de automóviles fuera del Estado</value>
+  </data>
+  <data name="Payment agreements" xml:space="preserve">
+    <value>Acuerdos de pago</value>
+  </data>
+  <data name="Payroll Tax Reports" xml:space="preserve">
+    <value>Informes de impuestos de nómina</value>
+  </data>
+  <data name="Personal Taxes" xml:space="preserve">
+    <value>Impuestos personales</value>
+  </data>
+  <data name="Phone Calls" xml:space="preserve">
+    <value>Llamadas telefónicas</value>
+  </data>
+  <data name="Photography Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de fotografía</value>
+  </data>
+  <data name="Please Enter valid email" xml:space="preserve">
+    <value>Digite un correo válido</value>
+  </data>
+  <data name="Plumbing Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de fontanería</value>
+  </data>
+  <data name="POE Security  Cameras Systems" xml:space="preserve">
+    <value>Sistemas de cámaras de seguridad POE</value>
+  </data>
+  <data name="Poster Design" xml:space="preserve">
+    <value>Diseño de posters</value>
+  </data>
+  <data name="Power of Attorney" xml:space="preserve">
+    <value>Poder legal</value>
+  </data>
+  <data name="Power of Attorney1" xml:space="preserve">
+    <value>Poder legal</value>
+  </data>
+  <data name="PPT Presentation Design" xml:space="preserve">
+    <value>Diseño de presentación PPT</value>
+  </data>
+  <data name="Privacity Polity" xml:space="preserve">
+    <value>Política de privacidad</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>Política de Privacidad</value>
+  </data>
+  <data name="Proposals" xml:space="preserve">
+    <value>Propuestas</value>
+  </data>
+  <data name="Public Notary" xml:space="preserve">
+    <value>Notaria Pública</value>
+  </data>
+  <data name="Public Records" xml:space="preserve">
+    <value>Registros Públicos</value>
+  </data>
+  <data name="Read Our Customer Testimonials" xml:space="preserve">
+    <value>Lea los testimonios de nuestros clientes</value>
+  </data>
+  <data name="Realtor Website Design" xml:space="preserve">
+    <value>Diseño de sitio web inmobiliario</value>
+  </data>
+  <data name="Recreational Vehicles" xml:space="preserve">
+    <value>Vehículos recreacionales</value>
+  </data>
+  <data name="Rehabilitations Centers" xml:space="preserve">
+    <value>Centros de rehabilitación</value>
+  </data>
+  <data name="Remote Video surveillance with app" xml:space="preserve">
+    <value>Video vigilancia remota con aplicación</value>
+  </data>
+  <data name="Rental Properties" xml:space="preserve">
+    <value>Propiedades para alquilar</value>
+  </data>
+  <data name="Repossessions" xml:space="preserve">
+    <value>Reposesiones</value>
+  </data>
+  <data name="RESOURCES" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="Restaurant Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de restaurantes</value>
+  </data>
+  <data name="Schools/Daycares" xml:space="preserve">
+    <value>Escuelas / guarderías</value>
+  </data>
+  <data name="Scripts" xml:space="preserve">
+    <value>Guiones</value>
+  </data>
+  <data name="Security Camara Installation" xml:space="preserve">
+    <value>Instalación de Cámara de Seguridad</value>
+  </data>
+  <data name="SELECT THE SERVICES YOU NEED" xml:space="preserve">
+    <value>SELECCIONA LOS SERVICIOS QUE NECESITAS</value>
+  </data>
+  <data name="Self-Employment Tax" xml:space="preserve">
+    <value>Impuesto de autoempleo</value>
+  </data>
+  <data name="Seller Side Only" xml:space="preserve">
+    <value>Solo vendedor</value>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>Septiembre</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="Short Sales" xml:space="preserve">
+    <value>Ventas cortas</value>
+  </data>
+  <data name="Signage Design" xml:space="preserve">
+    <value>Diseño de señalización</value>
+  </data>
+  <data name="Small Business" xml:space="preserve">
+    <value>Pequeños negocios</value>
+  </data>
+  <data name="Small Business1" xml:space="preserve">
+    <value>Pequeños negocios</value>
+  </data>
+  <data name="Social Cover Design" xml:space="preserve">
+    <value>Diseño de portada social</value>
+  </data>
+  <data name="Social Services" xml:space="preserve">
+    <value>Servicios sociales</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="Stickers" xml:space="preserve">
+    <value>Pegatinas</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Politicas de Privacidad</value>
+  </data>
+  <data name="Student Loans" xml:space="preserve">
+    <value>Préstamos estudiantiles</value>
+  </data>
+  <data name="Sub-Contractor" xml:space="preserve">
+    <value>Subcontratista</value>
+  </data>
+  <data name="SUBMIT MESSAGE" xml:space="preserve">
+    <value>ENVIAR MENSAJE</value>
+  </data>
+  <data name="Tax Deductions" xml:space="preserve">
+    <value>Deducciones fiscales</value>
+  </data>
+  <data name="Tax Liens" xml:space="preserve">
+    <value>Gravámenes Fiscales</value>
+  </data>
+  <data name="Tax Preparation For Non-Profits/LLC, C &amp; S" xml:space="preserve">
+    <value>Preparación de impuestos para organizaciones sin fines de lucro / LLC, C &amp; S</value>
+  </data>
+  <data name="Tax Returns" xml:space="preserve">
+    <value>Declaraciones de impuestos</value>
+  </data>
+  <data name="Terms Conditions" xml:space="preserve">
+    <value>Terminos y Condiciones</value>
+  </data>
+  <data name="Testimonials" xml:space="preserve">
+    <value>Testimonios</value>
+  </data>
+  <data name="Therapist Website Design" xml:space="preserve">
+    <value>Diseño de sitios web para terapeutas</value>
+  </data>
+  <data name="Thermal" xml:space="preserve">
+    <value>Térmico</value>
+  </data>
+  <data name="This field is required" xml:space="preserve">
+    <value>Este campo es requerido</value>
+  </data>
+  <data name="Trailers" xml:space="preserve">
+    <value>Remolques</value>
+  </data>
+  <data name="Translation" xml:space="preserve">
+    <value>Traducción</value>
+  </data>
+  <data name="Translation Of PDF Files" xml:space="preserve">
+    <value>Traducción de archivos PDF</value>
+  </data>
+  <data name="Translations Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de traducciones</value>
+  </data>
+  <data name="Travel Permits to Minor" xml:space="preserve">
+    <value>Permisos de viaje a menores</value>
+  </data>
+  <data name="Trust" xml:space="preserve">
+    <value>Confiar</value>
+  </data>
+  <data name="Vandal-Proof" xml:space="preserve">
+    <value>Prueba de vandalismo</value>
+  </data>
+  <data name="Vehicle Title Transfer" xml:space="preserve">
+    <value>Transferencia de título de vehículo</value>
+  </data>
+  <data name="Vehicle Title Website Design" xml:space="preserve">
+    <value>Diseño del sitio web del título del vehículo</value>
+  </data>
+  <data name="Video Monitoring" xml:space="preserve">
+    <value>Monitoreo de video</value>
+  </data>
+  <data name="Visas" xml:space="preserve">
+    <value>Visas</value>
+  </data>
+  <data name="Waivers" xml:space="preserve">
+    <value>Renuncias</value>
+  </data>
+  <data name="We are not lawyers or a law firm and we do not provide legal advice." xml:space="preserve">
+    <value>No somos abogados ni bufetes de abogados y no brindamos asesoramiento legal.</value>
+  </data>
+  <data name="We have a lot experiences in Tax preparer and Income Tax too. More ever we use legitimate taxes strategies to minimize taxes services process  focusing on maximizing refunds." xml:space="preserve">
+    <value>También tenemos muchas experiencias en preparación de impuestos e impuesto sobre la renta. Cada vez más utilizamos estrategias impositivas legítimas para minimizar el proceso de servicios impositivos centrados en maximizar los reembolsos.</value>
+  </data>
+  <data name="We have great customer services and professionalism accredited by the State of Texas. We can  assist you with Notary Public Services on documents such as:" xml:space="preserve">
+    <value>Tenemos excelentes servicios al cliente y profesionalismo acreditados por el Estado de Texas. Podemos ayudarlo con los Servicios Notariales Públicos en documentos tales como:</value>
+  </data>
+  <data name="Websites" xml:space="preserve">
+    <value>Sitios web</value>
+  </data>
+  <data name="Wedding Website Design" xml:space="preserve">
+    <value>Diseño de sitios web de bodas</value>
+  </data>
+  <data name="Wedsite" xml:space="preserve">
+    <value>Wedsite</value>
+  </data>
+  <data name="WHY CISEP?" xml:space="preserve">
+    <value>¿POR QUÉ CISEP?</value>
+  </data>
+  <data name="Will &amp; Living Will" xml:space="preserve">
+    <value>Voluntad y testamento vital</value>
+  </data>
+  <data name="Windows Install or Upgrade" xml:space="preserve">
+    <value>Instalar o actualizar Windows</value>
+  </data>
+  <data name="Witness Transcrits" xml:space="preserve">
+    <value>Testigos reclutados</value>
+  </data>
+  <data name="Witness Transcrits1" xml:space="preserve">
+    <value>Testigos reclutados</value>
+  </data>
+  <data name="Witnessing Signatures" xml:space="preserve">
+    <value>Testimonio de firmas</value>
+  </data>
+  <data name="You can stop by our office and just use the contact form below for any questions and inquiries" xml:space="preserve">
+    <value>Puede pasar por nuestra oficina y usar el formulario de contacto a continuación para cualquier pregunta o consulta.</value>
+  </data>
+  <data name="Your email has been sent successfully." xml:space="preserve">
+    <value>Su correo ha sido enviado satisfactoriamente.</value>
+  </data>
+  <data name="Your message" xml:space="preserve">
+    <value>Su mensaje</value>
+  </data>
+  <data name="Zoom Lens" xml:space="preserve">
+    <value>Lentes de aumento</value>
+  </data>
+</root>

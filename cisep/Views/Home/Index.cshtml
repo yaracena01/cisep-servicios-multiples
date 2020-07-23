@@ -1,0 +1,669 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+
+@inject IViewLocalizer Localizer
+@inject IJsonHelper Json;
+
+
+@{
+    ViewData["Title"] = "Home Page";
+    var i = 0;
+    string booknow = Localizer.GetString("Book now");
+}
+
+<div class="navbar3 header py-2 navbar-custom" style="background:#fff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span style="font-size: 21px; float:left; padding-right: 4px;"><i style="color:#37A" class="fas fa-map-marker-alt"></i></span>
+                <a style="font-weight: normal;font-size: 10px; text-decoration:none" class="page-scroll" href="#contact"><span>3845 Cypress Creek Parkway, Suite #350, Houston, Texas 77068-3567</span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" style="padding-bottom: 5px;">
+                <span style="float:left; font-size: 21px; padding-right: 4px;"><i style="color:#37A" class="far fa-clock"></i></span>
+                <a style="font-weight: normal;font-size: 10px; text-decoration:none" class="page-scroll" href="#contact"><span>Mon - Fri: 09:00am-07:00pm. Saturday and Sunday CLOSED</span></a>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+
+                <a style="float: right;" href="https://www.instagram.com/cisepservices/" target="_blank"><span style="font-size: 16px;border-radius: 15px;padding:5px 7px 5px 7px;background:red;"><i style="color:white" class="fab fa-instagram"></i></span></a>
+                <a style="float: right;padding-right:5px" href="https://www.facebook.com/cisepcomunidad/" target="_blank"><span style="font-size: 16px;border-radius: 15px;padding: 5px 11px 5px 10px;background: #3b5998;"><i style="color:white" class="fab fa-facebook-f"></i></span></a>
+                <a style="float: right;text-align:right;padding-right:5px;font-weight: normal;font-size: 10px; text-decoration:none" class="page-scroll" href="tel:+1 256-200-9773"> <span style="font-size: 21px;"><i style="color:#37A" class="fas fa-phone"></i></span> <span>+1 256-200-9773</span></a>
+                <a asp-controller="Home" asp-action="SetSpanish"><h6 style="float: left; font-weight: 500; text-align: left">Hablamos Español</h6></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="navbar2 header py-2 navbar-custom" style="background:#fff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3.5">
+                <div class="row">
+                    <div class="col-md-1">
+                        <span style="font-size: 21px;"><i style="color: #37A" class="fas fa-map-marker-alt"></i></span>
+                    </div>
+                    <div class="col-md-11" style="padding-left: 0px;">
+                        <a style="text-align:left;color:#190D82;font-weight: normal;font-size: 12px; text-decoration:none" class="page-scroll" href="#contact"><h7>3845 Cypress Creek Parkway, Suite #350, Houston, Texas 77068-3567</h7></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4.5">
+                <div class="row">
+                    <div class="col-md-1">
+                        <span style="font-size: 21px;"><i style="color:#37A" class="far fa-clock"></i></span>
+                    </div>
+                    <div class="col-md-11" style="padding-left: 7px;">
+                        <h7 style="text-align:left;color:#190D82;font-weight: normal;font-size: 12px;">Mon - Fra: 00:00am-23:00pm. Satuday And Sunday CLOSED</h7>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2.5">
+                <div class="row">
+                    <div class="col-md-1">
+                        <span style="font-size: 21px;"><i style="color:#37A" class="fas fa-phone"></i></span>
+                    </div>
+                    <div class="col-md-9" style="padding-left: 5px;">
+                        <a href="tel:+1 256-200-9773" style="text-align:left;color:#190D82;text-decoration: none;font-weight: normal;font-size: 12px;"><h7>+1 256-200-9773</h7></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2.5">
+                <div class="row form-2" style="padding-top:0px; padding-bottom:0px; background:none">
+                    <div class="col-md-3">
+                        <span class="fa-stack" style="margin-bottom:0px; height:38px">
+                            <a href="https://www.facebook.com/cisepcomunidad/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x" style="font-size: 2em;"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x" style="font-size: 1.2rem;line-height: 2rem;"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-md-4 pd-l">
+                        <span class="fa-stack" style="margin-bottom:0; height:38px">
+                            <a href="https://www.instagram.com/cisepservices/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x" style="font-size: 2em;"></i>
+                                <i class="fab fa-instagram fa-stack-1x" style="font-size: 1.2rem;line-height: 2rem;"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-md fixed-top sticky-top navbar-dark navbar-custom">
+    <a class="navbar-brand logo-image" asp-action="index" asp-controller="Home"><img src="~/images/logo3.0.png" alt="alternative"></a>
+    <a class="" style="text-decoration:none;color:white;" asp-action="index" asp-controller="Home">CISEP Multi-Services</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-awesome fas fa-bars"></span>
+        <span class="navbar-toggler-awesome fas fa-times"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#header">@Localizer["Home"]<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#services">@Localizer["Services"]</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" asp-controller="ServicesPage" asp-action="CreditRepairIndex">@Localizer["Credit"]</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link page-scroll" href="#intro">@Localizer["About"]</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact">@Localizer["Contact"]</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i>  <span>@ViewBag.idiom</span></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item idiom" data-idiom="en" href="#"><span class="item-text">@Localizer["English"]</span></a>
+                    <div class="dropdown-items-divide-hr"></div>
+                    <a class="dropdown-item idiom" data-idiom="es" href="#"><span class="item-text">@Localizer["Spanish"]</span></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header id="header" class="header">
+    <div class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container ">
+                        <h2 style="color: white;font-size: 32px !important;"> CISEP <span id="js-rotating">@Localizer["Services"], @Localizer["RESOURCES"]</span></h2>
+                        <p class="p-heading p-large">@Localizer["Offering the services you need and providing resources and trainings."]</p>
+                        <a class="btn-solid-lg page-scroll" href="#services">@Localizer["Services"]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="services" class="cards-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-container">
+                    <h3>@Localizer["SELECT THE SERVICES YOU NEED"]<br></h3>
+                </div>
+            </div>
+        </div>
+        <div class="services row">
+            <div class="col-lg-12">
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper">
+                            @foreach (var row in ViewBag.services)
+                            {
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="card-image element-item">
+                                        <img class="img-fluid" src="~/imageServices/@row.Photo" alt="alternative">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">@row.Name</h3>
+                                        <p style="white-space: pre-line;color:black">@row.Description</p>
+                                        <ul class="list-unstyled li-space-lg" style="text-align:left">
+                                            @foreach (var sd in row.Services_Details)
+                                            {
+                                                i++;                                             
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">@sd.Name</div>
+                                            </li>
+                                                    if (i == 5)
+                                                    {
+                                                        i = 0;
+                                                        break;
+                                                    }
+                                                }
+                                        </ul>
+                                        <p>           
+                                            <a style="font-size: 12px;font-weight: bold;" class="popup-with-move-anim" id="model" onclick='getValues(@Json.Serialize(row));' href="#project-1">
+                                                <div class="element-item-overlay"><span>@Localizer["More Information"]</span></div>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    @if (row.Url != "" && row.Url != null)
+                                     {
+                                <div class="button-container">
+                                    @if (row.Id != 2060)
+                                    {
+                                        @Html.ActionLink(booknow, "PayServices", "Home", new { id = row.Id }, new { target = "_blank", @class = "btn-solid-reg page-scroll" })
+                                    }
+                                    else
+                                    {
+                                        <a class="btn-solid-reg page-scroll" target="_blank" href="/ServicesPage/CreditRepairIndex">@row.UrlName</a>
+                                    }
+
+
+                                </div>
+                                     }
+                                </div>
+                            </div>
+                            }
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="intro" class="basic-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-container">
+                    <div class="section-title">@Localizer["About"]</div>
+                    <h3 style="text-align: center; margin-bottom: 2rem;">@Localizer["WHY CISEP?"]</h3>
+                    <p>@Localizer["Besides being an unique name for our corporation, it means COMPLETE, IMPACTING, SECURE, SUCCESSFUL AND PROFESSIONAL. When we looked for a name that represented the vision of our corporation, a brighter idea could not come to our minds. CISEP has created trainings, resources, study guides and more to empower the community and motivate them to get ahead and create a better future for our children and family members. CISEP is not just another corporation, it is the only corporation that invests in the financial and the intellectual well-being of its community."]</p>
+                    <p class="testimonial-text">@Localizer["Our purpose here at CISEP is to get you through those tough moments relying on our team's expertise in starting and growing companies."]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">@Localizer["Testimonials"]</div>
+                <h2>@Localizer["Read Our Customer Testimonials"]</h2>
+                <p class="p-heading">@Localizer["Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives"]</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-1.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">Exelente servicio muy profecionales,amables y gran precio no me arrepiento para nada de haber echo mis taxes con ellos que Dios los bendiga y gracias🙏🏼</div>
+                                        <div class="testimonial-author">Luis Roque</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-2.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">Mi experiencia ha sido muy buena. Ellos opta con un personal muy servicial y capacitado. Te informan paso a paso lo que pasa con tu proceso y las acciones tomadas. Muy buen servicio lo recomiendo.</div>
+                                        <div class="testimonial-author">Sadely Acosta</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-3.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">Great place to get your taxes done! Happy teacher happy life!.</div>
+                                        <div class="testimonial-author">Iliana Vides</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-4.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">the prices are great compared to other companies. Thanks guy for you great Job. my whole house feels a lot safer now. security camera installation.</div>
+                                        <div class="testimonial-author">Chad J</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-5.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">I had a totally amazing experience. I was help by Milka she was so kind and. Are sure I understood everything I was doing and how everything work. She was nice from the beginning and even though it was my first time doing taxes she helped me understand everything. Thank you so much ! I totally recommend her.</div>
+                                        <div class="testimonial-author">Dary Erazo</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-6.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">
+                                            Great services!! I really recommend this place...
+                                            Excelente servicio, son muy amables y atentos a resolver todas tus dudas lo recomiendo ❤️💕
+                                        </div>
+                                        <div class="testimonial-author">Claudia Gil Leon</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-7.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">great help took there time and where very helpful in every aspect thank you for your time.</div>
+                                        <div class="testimonial-author">Hector Alvarado</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-8.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">
+                                            Milka is awesome to work with. She is very informative and helpful. Anytime we needed her to answer questions she's always there to help with whatever we need.
+                                        </div>
+                                        <div class="testimonial-author">La shaum</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-9.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">Their customer service is amazing. They were very helpful and made sure I understood the process, what to expect and stayed in communication with me throughout the process.</div>
+                                        <div class="testimonial-author">Sonya Johnson</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-10.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">
+                                            Recomendado 💯 buen servicio comprensión con el cliente seguridad en tus documentos excelente trabajo si necesitas ayuda reparación de crédito income tax notary public traducciones preparación de planilla de inmigración seguridad en servicio garantizado.
+                                        </div>
+                                        <div class="testimonial-author">Rubis Vg</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-11.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">
+                                            Excellent customer service and very professional. I highly recommend!!
+                                        </div>
+                                        <div class="testimonial-author">Angelon Nelson</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-12.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">
+                                            Me Gustó su Servicio, Me Gusto como me Atendieron, se los recomiendo son muy amables!
+                                        </div>
+                                        <div class="testimonial-author">Jorge Guinaque</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-13.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">
+                                            Muy profesionales, me encantó trabajar con ustedes, definitivamente seguimos trabajando juntos. Gracias!!
+                                        </div>
+                                        <div class="testimonial-author">Genesis Principio Astacio</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="~/images/testimonial-14.png" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">
+                                            Excelente servicio, profesionales de primera, amables. Personal calificado.. Gracias amigos de CISEP MULTI-SERVICE
+                                        </div>
+                                        <div class="testimonial-author">Marlon Sorto</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact" class="form-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-container">
+                    <div class="section-title">@Localizer["Contact"]</div>
+                    <h2>@Localizer["Get In Touch Using The Form"]</h2>
+                    <p>@Localizer["You can stop by our office and just use the contact form below for any questions and inquiries"]</p>
+                    <ul class="list-unstyled li-space-lg" style="font-size: 14px;">
+                        <li class="address">
+                            <i class="fas fa-map-marker-alt"></i>3845 Cypress Creek Parkway, Suite #350, Houston, Texas 77068-3567
+                        </li>
+                        <li><i class="fas fa-phone"></i><a href="tel:+1 256-200-9773">+1 256-200-9773</a></li>
+                        <li class="list-li"><i class="fab fa fa-fax" aria-hidden="true"></i>Fax <a href="tel:+1 713-510-1679">+1 713-510-1679</a></li>
+                        <br class="list-breack">
+                        <li><i class="fas fa-envelope"></i><a href="mailto:multi@cisepservices.com">Multi@cisepservices.com</a></li>
+                        <li><i style="font-size:1.2rem" class="fab fa-whatsapp"></i><a href="tel:+1 256-200-9773">+1 256-200-9773</a></li>
+
+                    </ul>
+                    <h4>@Localizer["Follow us on Social Media"]</h4>
+
+                    <span class="fa-stack">
+                        <a href="https://www.facebook.com/cisepcomunidad/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://twitter.com/cisep4" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+
+                    <span class="fa-stack">
+                        <a href="https://www.instagram.com/cisepservices/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://www.youtube.com/channel/UCZgUzWHAhb4uF2VhS4yReZg/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form method="post" id="emailContact" data-toggle="" data-focus="false">
+                    <div class="form-group">
+                        <input name="Subject" type="text" class="form-control-input" id="cname" required>
+                        <label class="label-control" for="cname">@Localizer["Name"]</label>
+                    </div>
+                    <div class="form-group">
+                        <input name="To" type="email" class="form-control-input" id="cemail" required>
+                        <label class="label-control" for="cemail">@Localizer["Email"]</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="Body" class="form-control-textarea" id="cmessage" required></textarea>
+                        <label class="label-control" for="cmessage">@Localizer["Your message"]</label>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="cterms" value="Agreed-to-Terms" class="checkbox_check" required>@Localizer["I agree with CISEP-Multi-Services's stated"] <a href="privacy-policy.html">@Localizer["Privacy Policy"]</a> @Localizer["and"] <a href="terms -conditions.html">@Localizer["Terms Conditions"]</a>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control-submit-button">@Localizer["SUBMIT MESSAGE"]</button>
+                    </div>
+                    <div class="form-message">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="map-responsive">
+                    <div style="width: 100%"><div><iframe width="100" height="600" id="" src="https://maps.google.com/maps?q=CISEP%20Multi-Services%2C%20Cypress%20Creek%20Parkway%2C%20Houston%2C%20Texas&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/en/">google maps html</a></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-12 cards-2" style="padding-top:0px">
+            <img class="img-fluid imgs" src="" alt="alternative">
+            <h3 style="text-align:left;" class="tls"></h3>
+            <hr class="line-heading">
+            <p class="prs" style="white-space: pre-line;"></p>
+            <ul class="list-unstyled li-space-lg ds">
+                <li class="media">
+                    <i class="fas fa-square"></i>
+                    <div class="media-body"></div>
+                </li>
+                <li class="media">
+                    <i class="fas fa-square"></i>
+                    <div class="media-body"></div>
+                </li>
+            </ul>
+            <a class="btn-outline-reg mfp-close as-button" href="#services">@Localizer["BACK"]</a>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        var cards = $('.cards-2 .card-body');
+        var maxHeight = 0;
+        for (var i = 0; i < cards.length; i++) {
+            if (maxHeight < $(cards[i]).outerHeight()) {
+                maxHeight = $(cards[i]).outerHeight() - 50;
+            }
+        }
+        for (var i = 0; i < cards.length; i++) {
+            $(cards[i]).height(maxHeight);
+        }
+        function cformError() {
+            $("#emailContact").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+                $(this).removeClass();
+            });
+        }
+        $('#cemail')
+            .on('invalid', function () {
+                cformError();
+                return this.setCustomValidity('@Localizer["Please Enter valid email"]');
+            })
+            .on('input', function () {
+                return this.setCustomValidity('');
+            });
+
+        $('#cname')
+            .on('invalid', function () {
+                cformError();
+                return this.setCustomValidity('@Localizer["This field is required"]');
+            })
+            .on('input', function () {
+                return this.setCustomValidity('');
+            });
+        $('#cmessage')
+            .on('invalid', function () {
+                cformError();
+                return this.setCustomValidity('@Localizer["This field is required"]');
+            })
+            .on('input', function () {
+                return this.setCustomValidity('');
+            });
+        $('#cterms')
+            .on('invalid', function () {
+                cformError();
+                return this.setCustomValidity('@Localizer["Click this box if you want to continue"]');
+            })
+            .on('input', function () {
+                return this.setCustomValidity('');
+            });
+
+        function validate_email (email) {
+            var emailExp = new RegExp(/^\b[A-Z0-9._%+-]+@@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i);
+            return emailExp.test(email);
+        }
+
+        $('#emailContact').submit(function (e) {
+                e.preventDefault();
+                var subject = $("[name='Subject']").val(),
+                    to = $("[name='To']").val(),
+                    body = $("[name='Body']").val();
+            if ((subject != null && $.trim(subject) != "") && (to != null && $.trim(to) != "" && validate_email(to)) && (body != null && $.trim(body) != "") && $('input.checkbox_check').is(':checked')) {
+                $(".spinner-wrapper").fadeIn();
+                $.ajax({
+                    type: "post",
+                    url: "@Url.Action("Email", "Home")",
+                    data: {
+                        Subject: subject,
+                        To: to,
+                        Body: body
+                    },
+                    success: function (response) {
+                        if (response.success == true) {
+                            $(".spinner-wrapper").fadeOut();
+                            toastr.info('@Localizer["Your email has been sent successfully."]', '', {
+                                "positionClass": "toast-bottom-left",
+                                "showDuration": "300",
+                                "hideDuration": "1000",
+                                "timeOut": "5000",
+                                "extendedTimeOut": "1000",
+                                "showEasing": "swing",
+                                "hideEasing": "linear",
+                                "showMethod": "fadeIn",
+                                "hideMethod": "fadeOut"
+                            });
+                            $("[name='Subject']").val("");
+                            $("[name='To']").val("");
+                            $("[name='Body']").val("");
+                        } else {
+                            $(".spinner-wrapper").fadeOut();
+                            toastr.info(response.message, '', {
+                                "positionClass": "toast-bottom-left",
+                                "showDuration": "300",
+                                "hideDuration": "1000",
+                                "timeOut": "5000",
+                                "extendedTimeOut": "1000",
+                                "showEasing": "swing",
+                                "hideEasing": "linear",
+                                "showMethod": "fadeIn",
+                                "hideMethod": "fadeOut"
+                            });
+
+                        }
+                    },
+                    error: function () {
+
+                    }
+                });
+            }
+        });
+        $('.idiom').on("click", function (e) {
+            e.preventDefault();
+            $me = $(this);
+            var idiom = $me.data("idiom");
+                    //$(".spinner-wrapper").fadeIn();
+                    $.ajax({
+                        type: "post",
+                        url: "@Url.Action("SetLanguage", "Home")",
+                        data: {
+                            culture: idiom,
+                            returnUrl: "/"
+                        },
+                        success: function (response) {
+                            console.log(response);
+                            if (response.success == true) {
+                                //$(".spinner-wrapper").fadeOut();
+                                location.reload();
+                            } else {
+                                $(".spinner-wrapper").fadeOut();
+                                toastr.info(response.message, '', {
+                                    "positionClass": "toast-bottom-left",
+                                    "showDuration": "300",
+                                    "hideDuration": "1000",
+                                    "timeOut": "5000",
+                                    "extendedTimeOut": "1000",
+                                    "showEasing": "swing",
+                                    "hideEasing": "linear",
+                                    "showMethod": "fadeIn",
+                                    "hideMethod": "fadeOut"
+                                });
+                            }
+                        },
+                        error: function () {
+
+                        }
+                    });
+
+        });
+        $.localization = true
+        function getValues(model) {
+            $('#project-1 .imgs').attr('src', 'imageServices/' + model.photo);
+            $('#project-1 .tls').html(model.name);
+            $('#project-1 .prs').html(model.description);
+            var detailServices = "";
+            
+            for (var s of model.services_Details) {
+                detailServices += "<li class='media'><i class='fas fa-square'></i><div class='media-body'>" + s.name + "</div></li >"
+            }
+            $('#project-1 .ds').html(detailServices);
+        }
+    </script>
+}

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="(One-time fee, charged 5 days after signing up for credit repair services)" xml:space="preserve">
+    <value>(Tarifa única, cobrada 5 días después de suscribirse a los servicios de reparación de crédito)</value>
+  </data>
+  <data name="1st Round Of Dispute Letters Created And Sent To Credit Bureaus" xml:space="preserve">
+    <value>Primera ronda de cartas de disputa creadas y enviadas a los burós de crédito</value>
+  </data>
+  <data name="A deletion fee is invoiced for the complete deletion of an item. The deletion fees below are per item and per bureau. The deletion of ANY item from ANY bureau counts as ONE (1) deletion. The deletion of any account or public record from all three credit bureaus counts as THREE (3) deletions. Once you have a balance with us for the items that were deleted, you will be billed no more than $75 a month until your balance is paid off. You will not be required to pay off your balance in full. Example, if there are 6 collections deleted, we will send you an invoice of $300, in which you will be required to pay $75 a month for 4 months" xml:space="preserve">
+    <value>Se factura una tarifa de eliminación por la eliminación completa de un artículo. Las tarifas de eliminación a continuación son por artículo y por oficina. La eliminación de CUALQUIER elemento de CUALQUIER oficina cuenta como UNA (1) eliminación. La eliminación de cualquier cuenta o registro público de las tres oficinas de crédito cuenta como TRES (3) eliminaciones. Una vez que tenga un saldo con nosotros para los artículos que se eliminaron, se le facturará no más de $ 75 por mes hasta que se cancele su saldo. No se le pedirá que pague el saldo en su totalidad. Por ejemplo, si se eliminan 6 colecciones, le enviaremos una factura de $ 300, en la que deberá pagar $ 75 por mes durante 4 meses.</value>
+  </data>
+  <data name="A serious illness or injury can be disruptive. You need to heal, and there's a strong chance your finances will be affected, too. If an unpaid medical bill makes its way to your credit reports, your credit scores could suffer for years." xml:space="preserve">
+    <value>Una enfermedad o lesión grave puede ser perjudicial. Necesita sanar, y existe una gran posibilidad de que sus finanzas también se vean afectadas. Si una factura médica no pagada llega a sus informes de crédito, sus puntajes de crédito podrían sufrir durante años.</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Nosotros</value>
+  </data>
+  <data name="As America’s most reliable translation service provider, CISEP Multi-Services has a long history of managing complex translation projects in multiple languages for corporations of all sizes." xml:space="preserve">
+    <value>Como el proveedor de servicios de traducción más confiable de Estados Unidos, CISEP Multi-Services tiene una larga historia de gestión de proyectos de traducción complejos en varios idiomas para corporaciones de todos los tamaños.</value>
+  </data>
+  <data name="Bankruptcies" xml:space="preserve">
+    <value>Quiebras</value>
+  </data>
+  <data name="Below are the services included in our Initial Audit" xml:space="preserve">
+    <value>A continuación se encuentran los servicios incluidos en nuestra Auditoría Inicial</value>
+  </data>
+  <data name="Besides being an unique name for our corporation, it means COMPLETE, IMPACTING, SECURE, SUCCESSFUL AND PROFESSIONAL. When we looked for a name that represented the vision of our corporation, a brighter idea could not come to our minds. CISEP has created trainings, resources, study guides and more to empower the community and motivate them to get ahead and create a better future for our children and family members. CISEP is not just another corporation, it is the only corporation that invests in the financial and the intellectual well-being of its community." xml:space="preserve">
+    <value>Además de ser un nombre único para nuestra corporación, significa COMPLETO, IMPACTANTE, SEGURO, EXITOSO Y PROFESIONAL. Cuando buscamos un nombre que representara la visión de nuestra corporación, no se nos ocurrió una idea más brillante. CISEP ha creado capacitaciones, recursos, guías de estudio y más para empoderar a la comunidad y motivarlos a avanzar y crear un futuro mejor para nuestros hijos y miembros de la familia. CISEP no es solo otra corporación, es la única corporación que invierte en el bienestar financiero e intelectual de su comunidad.</value>
+  </data>
+  <data name="Book now" xml:space="preserve">
+    <value>Reservar ahora</value>
+  </data>
+  <data name="CHARGE-OFFS" xml:space="preserve">
+    <value>DESCARGAS</value>
+  </data>
+  <data name="CISEP Multi-Services Help that your family, friends, employees, and property are safe.Our security systems start with a Digital Video Recorder (DVR) or Network Video Recorder (NVR) that include security grade hard drives that can store days, weeks, or even months of security footage. These security camera systems also feature remote access via the Internet, giving you peace of mind no matter where you are." xml:space="preserve">
+    <value>Los servicios múltiples de CISEP ayudan a que su familia, amigos, empleados y propiedades estén seguros. Nuestros sistemas de seguridad comienzan con una grabadora de video digital (DVR) o una grabadora de video en red (NVR) que incluye discos duros de grado de seguridad que pueden almacenar días, semanas, o incluso meses de imágenes de seguridad. Estos sistemas de cámaras de seguridad también cuentan con acceso remoto a través de Internet, lo que le brinda tranquilidad sin importar dónde se encuentre.</value>
+  </data>
+  <data name="CISEP Multi-Services is company has the tools and resources you need to incorporate data-driven marketing as a main component and influencer of your web design strategy." xml:space="preserve">
+    <value>CISEP Multi-Services es una compañía que tiene las herramientas y los recursos que necesita para incorporar el marketing basado en datos como un componente principal e influyente de su estrategia de diseño web.</value>
+  </data>
+  <data name="COLLECTIONS" xml:space="preserve">
+    <value>COLECCIONES</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Crédito</value>
+  </data>
+  <data name="Credit Repair" xml:space="preserve">
+    <value>Reparación de Crédito</value>
+  </data>
+  <data name="Credit Repair Program" xml:space="preserve">
+    <value>Programas de Reparación de Crédito</value>
+  </data>
+  <data name="Creditors know that most consumers don’t know the credit laws that protect them. This is where we come in. Let us fight for you. We focus on the credit laws in place to ensure that your creditors are adhering to the FCRA (Fair Credit Reporting Act) and the FDCPA (Fair Debt Collection Practices Act). Our Clients rest easy knowing that they are paying for results and not broken promises" xml:space="preserve">
+    <value>Los acreedores saben que la mayoría de los consumidores no conocen las leyes de crédito que los protegen. Aquí es donde entramos nosotros. Luchemos por usted. Nos enfocamos en las leyes de crédito vigentes para garantizar que sus acreedores cumplan con la FCRA (Ley de Informes de Crédito Justos) y la FDCPA (Ley de Prácticas de Cobro de Deudas Justas). Nuestros clientes están tranquilos sabiendo que están pagando por resultados y no por promesas incumplidas</value>
+  </data>
+  <data name="Debt Settlement" xml:space="preserve">
+    <value>Pago de la deuda</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Ingles</value>
+  </data>
+  <data name="EVICTIONS" xml:space="preserve">
+    <value>DESALOJOS</value>
+  </data>
+  <data name="Finding out your identity has been stolen is tough. The key to cleaning up your credit report is to move quickly and be patient. The faster you catch and dispute errors, the easier it will be to clean them up." xml:space="preserve">
+    <value>Descubrir que su identidad ha sido robada es difícil. La clave para limpiar su informe de crédito es moverse rápidamente y ser paciente. Cuanto más rápido detecte y dispute los errores, más fácil será limpiarlos.</value>
+  </data>
+  <data name="Follow CISEP Multi-Services On Social Media" xml:space="preserve">
+    <value>Siga los servicios múltiples de CISEP en las redes sociales</value>
+  </data>
+  <data name="FORECLOSURES" xml:space="preserve">
+    <value>EJECUCIONES HIPOTECARIAS</value>
+  </data>
+  <data name="Get In Touch Using The Form" xml:space="preserve">
+    <value>Póngase en contacto usando el formulario</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Identity Theft" xml:space="preserve">
+    <value>El robo de identidad</value>
+  </data>
+  <data name="If there are any late payments on your reports that don’t belong there, you can remove them to improve your credit scores. And if you did make a late payment or two, there’s a chance that you can still get them removed." xml:space="preserve">
+    <value>Si hay algunos pagos atrasados ​​en sus informes que no pertenecen a ese lugar, puede eliminarlos para mejorar sus puntajes de crédito. Y si realizó un pago atrasado o dos, existe la posibilidad de que aún pueda eliminarlos.</value>
+  </data>
+  <data name="Immigration Forms Preparation and  Interpretation" xml:space="preserve">
+    <value>Preparación e interpretación de formularios de inmigración</value>
+  </data>
+  <data name="Income Tax" xml:space="preserve">
+    <value>Impuesto sobre la renta</value>
+  </data>
+  <data name="Initial Audit Fee – $189 Per Person" xml:space="preserve">
+    <value>Tarifa de auditoría inicial: $ 189 por persona</value>
+  </data>
+  <data name="INQUIRES" xml:space="preserve">
+    <value>CONSULTAS</value>
+  </data>
+  <data name="Language:" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="Late Payments" xml:space="preserve">
+    <value>Pagos Atrasados</value>
+  </data>
+  <data name="Medical Bills" xml:space="preserve">
+    <value>Facturas médicas</value>
+  </data>
+  <data name="More Information" xml:space="preserve">
+    <value>Más Información</value>
+  </data>
+  <data name="Negative Items Added To Database For Disputing Inaccuracies" xml:space="preserve">
+    <value>Elementos negativos agregados a la base de datos por disputas imprecisiones</value>
+  </data>
+  <data name="Offering the services you need and providing resources and trainings." xml:space="preserve">
+    <value>Ofrecer los servicios que necesita y proporcionar recursos y capacitaciones.</value>
+  </data>
+  <data name="Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives" xml:space="preserve">
+    <value>Nuestros clientes son nuestros socios y no podemos imaginar un futuro mejor para nuestra empresa sin ayudarlos a alcanzar sus objetivos.</value>
+  </data>
+  <data name="Our purpose here at CISEP is to get you through those tough moments relying on our team's expertise in starting and growing companies." xml:space="preserve">
+    <value>Nuestro propósito aquí en CISEP es ayudarlo a atravesar esos momentos difíciles confiando en la experiencia de nuestro equipo para iniciar y hacer crecer empresas.</value>
+  </data>
+  <data name="Our service will help you remove any Inaccurate, Roneous, and Obsolete information on your Credit file, including:" xml:space="preserve">
+    <value>Nuestro servicio lo ayudará a eliminar cualquier información inexacta, falsa u obsoleta en su archivo de crédito, que incluye:</value>
+  </data>
+  <data name="PER ITEM - PER BUREAU" xml:space="preserve">
+    <value>POR ARTÍCULO - POR OFICINA</value>
+  </data>
+  <data name="Personal Information Deleted For First Steps Of Restoration Process" xml:space="preserve">
+    <value>Información personal eliminada para los primeros pasos del proceso de restauración</value>
+  </data>
+  <data name="Provided with 15+ Page Initial Audit Report and The Action Plan" xml:space="preserve">
+    <value>Proporcionado con un informe de auditoría inicial de más de 15 páginas y el plan de acción</value>
+  </data>
+  <data name="Provided With 24/7 Online Account Access To Client Portal" xml:space="preserve">
+    <value>Proporcionado acceso a la cuenta en línea 24/7 al portal del cliente</value>
+  </data>
+  <data name="Public Notary" xml:space="preserve">
+    <value>Notaria Pública</value>
+  </data>
+  <data name="PUBLIC RECORDS" xml:space="preserve">
+    <value>REGISTROS PÚBLICOS</value>
+  </data>
+  <data name="Read Our Customer Testimonials" xml:space="preserve">
+    <value>Lea los testimonios de nuestros clientes</value>
+  </data>
+  <data name="REPOSSESSIONS" xml:space="preserve">
+    <value>REPOSESIONES</value>
+  </data>
+  <data name="Security Camara Installation" xml:space="preserve">
+    <value>Instalación de Cámara de Seguridad</value>
+  </data>
+  <data name="SELECT THE SERVICES YOU NEED" xml:space="preserve">
+    <value>SELECCIONA LOS SERVICIOS QUE NECESITAS</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="Starting at" xml:space="preserve">
+    <value>A partir de</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Politicas de Privacidad</value>
+  </data>
+  <data name="SUBMIT MESSAGE" xml:space="preserve">
+    <value>ENVIAR MENSAJE</value>
+  </data>
+  <data name="Terms Conditions" xml:space="preserve">
+    <value>Terminos y Condiciones</value>
+  </data>
+  <data name="Think how your life would be if you could keep 70% of your income. The major hurdle keeping you from taking that thought and making it real is your approach to debt and saving. We’ll help you stay on top of upcoming payments and find a strategy to ditch your debt." xml:space="preserve">
+    <value>Piense cómo sería su vida si pudiera conservar el 70% de sus ingresos. El principal obstáculo que le impide tomar ese pensamiento y hacerlo realidad es su enfoque de la deuda y el ahorro. Le ayudaremos a estar al tanto de los próximos pagos y a encontrar una estrategia para deshacerse de su deuda.</value>
+  </data>
+  <data name="Translation" xml:space="preserve">
+    <value>Traducción</value>
+  </data>
+  <data name="We are not lawyers or a law firm and we do not provide legal advice." xml:space="preserve">
+    <value>No somos abogados ni bufetes de abogados y no brindamos asesoramiento legal.</value>
+  </data>
+  <data name="We have a lot experiences in Tax preparer and Income Tax too. More ever we use legitimate taxes strategies to minimize taxes services process  focusing on maximizing refunds." xml:space="preserve">
+    <value>También tenemos muchas experiencias en preparación de impuestos e impuesto sobre la renta. Cada vez más utilizamos estrategias impositivas legítimas para minimizar el proceso de servicios impositivos centrados en maximizar los reembolsos.</value>
+  </data>
+  <data name="We have great customer services and professionalism accredited by the State of Texas. We can  assist you with Notary Public Services on documents such as:" xml:space="preserve">
+    <value>Tenemos excelentes servicios al cliente y profesionalismo acreditados por el Estado de Texas. Podemos ayudarlo con los Servicios Notariales Públicos en documentos tales como:</value>
+  </data>
+  <data name="Websites" xml:space="preserve">
+    <value>Sitios web</value>
+  </data>
+  <data name="What credit score do you desire? A 600, where you only hope to get approved for the things you need? A 700, where you get approved but not at the best rates? Credit repair is the process of addressing the negative items hurting your credit score." xml:space="preserve">
+    <value>¿Qué puntaje de crédito desea? ¿Un 600, donde solo espera obtener la aprobación para lo que necesita? ¿Un 700, donde lo aprueban pero no con las mejores tarifas? La reparación de crédito es el proceso de abordar los elementos negativos que afectan su puntaje de crédito.</value>
+  </data>
+  <data name="When you start with CISEP Multi-Services Credit Consulting  we provide an expert, detailed audit of your credit report. We believe this meticulous review is the critical ingredient that makes the difference between superficial results and dramatic credit repair success. You can sign up for our credit repair program with zero upfront fees. Clients rest easy with the peace of mind in knowing that they are paying for results and not broken promises" xml:space="preserve">
+    <value>Cuando comienza con CISEP Multi-Services Credit Consulting, le proporcionamos una auditoría experta y detallada de su informe de crédito. Creemos que esta revisión meticulosa es el ingrediente crítico que marca la diferencia entre los resultados superficiales y el éxito dramático de reparación de crédito. Puede inscribirse en nuestro programa de reparación de crédito con cero tarifas iniciales. Los clientes descansan tranquilos con la tranquilidad de saber que están pagando por resultados y no por promesas incumplidas</value>
+  </data>
+  <data name="While bankruptcy may help you erase or pay off past debts, those accounts will not disappear from your credit report. All bankruptcy-related accounts will affect your credit score for seven to ten years." xml:space="preserve">
+    <value>Si bien la bancarrota puede ayudarlo a borrar o pagar deudas pasadas, esas cuentas no desaparecerán de su informe de crédito. Todas las cuentas relacionadas con la bancarrota afectarán su puntaje de crédito durante siete a diez años.</value>
+  </data>
+  <data name="WHY CISEP?" xml:space="preserve">
+    <value>¿POR QUE CISEP?</value>
+  </data>
+  <data name="You can stop by our office and just use the contact form below for any questions and inquiries" xml:space="preserve">
+    <value>Puede pasar por nuestra oficina y usar el formulario de contacto a continuación para cualquier pregunta o consulta.</value>
+  </data>
+  <data name="YOU NEED CREDIT REPAIR BACKED BY THE LAWS THAT PROTECT YOU" xml:space="preserve">
+    <value>NECESITA REPARACIÓN DE CRÉDITO RESPALDADO POR LAS LEYES QUE LO PROTEGEN</value>
+  </data>
+</root>

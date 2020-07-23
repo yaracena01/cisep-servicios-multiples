@@ -1,0 +1,352 @@
+﻿@using System.Threading.Tasks
+@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+@inject IJsonHelper Json;
+
+<nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-custom">
+    <!-- Text Logo - Use this if you don't have a graphic logo -->
+    <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+    <!-- Image Logo -->
+    <a class="navbar-brand logo-image" href="index.html"><img src="~/images/logoCISEP.png" alt="alternative"></a>
+
+    <a class="" style="text-decoration:none;color:white;" href="index.html">CISEP Multi-Services</a>
+    <!-- Mobile Menu Toggle Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-awesome fas fa-bars"></span>
+        <span class="navbar-toggler-awesome fas fa-times"></span>
+    </button>
+    <!-- end of mobile menu toggle button -->
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link page-scroll" asp-action="Index" asp-controller="Home">@Localizer["Home"]<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll active" href="#credit">@Localizer["Credit Repair"]</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#program">@Localizer["Credit Repair Program"]</a>
+            </li>
+        </ul>
+        <span class="nav-item social-icons">
+            <span class="fa-stack">
+                <a href="https://www.facebook.com/cisepcomunidad/" target="_blank">
+                    @*<span class="hexagon"></span>*@
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+            </span>
+            <span class="fa-stack">
+                <a href="https://www.instagram.com/cisepservices/" target="_blank">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+            </span>
+            <span class="fa-stack">
+                <a href="tel:+1 256-200-9773">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-phone fa-stack-1x"></i>
+                </a>
+            </span>
+
+        </span>
+    </div>
+</nav> <!-- end of navbar -->
+<!-- Privacy Content -->
+
+<div id="credit" class="basic-1">
+    @*<div class="intro-header">
+            <div class="container">
+                <h1>About Us</h1>
+            </div>
+        </div>*@
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-container">
+                    <div class="section-title">@Localizer["Credit Repair"]</div>
+                    <h4 style="text-align:center;">@Localizer["YOU NEED CREDIT REPAIR BACKED BY THE LAWS THAT PROTECT YOU"]</h4>
+                    <p style="text-align:center;border-bottom: 1px solid #37A;padding-bottom: 15px">@Localizer["Creditors know that most consumers don’t know the credit laws that protect them. This is where we come in. Let us fight for you. We focus on the credit laws in place to ensure that your creditors are adhering to the FCRA (Fair Credit Reporting Act) and the FDCPA (Fair Debt Collection Practices Act). Our Clients rest easy knowing that they are paying for results and not broken promises"].</p>
+                    <div class="row cards-4 cards-3">
+                        <div class="col-md-12">
+                            <div class="slider-container">
+                                <div class="swiper-container card-slider">
+                                    <div class="swiper-wrapper">
+                                        <!-- Slide -->
+                                        @foreach (var row in ViewBag.services)
+                                        {
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-image element-item">
+                                                    <img class="img-fluid" src="~/imageServices/@row.Photo" alt="alternative">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer[row.Name]</h3>
+                                                    <p style="white-space: pre-line;color:black">@Localizer[row.Description]</p>
+                                                    <ul class="list-unstyled li-space-lg" style="text-align:left">
+                                                        @foreach (var sd in row.Services_Details)
+                                                            {
+                                                        <li class="media">
+                                                            <i class="fas fa-square"></i>
+                                                            <div class="media-body">@Localizer[sd.Name]</div>
+                                                        </li>
+
+                                                            }
+                                                    </ul>
+                                                   
+                                                </div>
+                                                @if (row.Url != "" && row.Url != null)
+                                                    {
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="@row.Url">@Localizer[row.UrlName]</a>
+                                                </div>  <!-- end of button-container -->
+
+                                                    }
+                                            </div>
+                                            <!-- end of card -->
+                                        </div>
+                                        }
+
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end of text-container-->
+            </div> <!-- end of col-->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of other-->
+<!-- end of credit -->
+<div id="program" class="basic-1">
+    @*<div class="intro-header">
+            <div class="container">
+                <h1>About Us</h1>
+            </div>
+        </div>*@
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-container">
+                    <div class="section-title" style="text-align:left !important">@Localizer["Credit Repair Program"]</div>
+                    <h3 style="text-align:center">@Localizer["Credit Repair Program"]</h3>
+                    <p style="text-align:left">
+                        @Localizer["When you start with CISEP Multi-Services Credit Consulting  we provide an expert, detailed audit of your credit report. We believe this meticulous review is the critical ingredient that makes the difference between superficial results and dramatic credit repair success. You can sign up for our credit repair program with zero upfront fees. Clients rest easy with the peace of mind in knowing that they are paying for results and not broken promises"].
+                    </p>
+                    <h5 style="color:#37A; text-align:left">@Localizer["Initial Audit Fee – $189 Per Person"]</h5>
+                    <p style="text-align:left;">@Localizer["(One-time fee, charged 5 days after signing up for credit repair services)"]</p>
+                    <p style="color:#37A; text-align:left">@Localizer["Below are the services included in our Initial Audit"]:</p>
+                    <div class="row" style="padding-top: 1rem;padding-bottom: 2rem;">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <ul class="list-group list-group-flush">
+                                    <li style="color: #37A;" class="list-group-item">@Localizer["Provided With 24/7 Online Account Access To Client Portal"]</li>
+                                    <li style="color: #37A;" class="list-group-item">@Localizer["Negative Items Added To Database For Disputing Inaccuracies"]</li>
+                                </ul>
+                            </div>
+                            @*<div style="background-color:#37A; color:white; padding: 15px; margin-bottom: 12px;border-radius: 5px;"><ul style="margin: 0px;padding-left: 15px;"><li style="list-style:none;"><a>Provided With 24/7 Online Account Access To Client Portal</a></li></ul></div>
+                                <div style="background-color:#37A; color:white; padding: 15px; margin-bottom: 12px;border-radius: 5px;"><ul style="margin: 0px;padding-left: 15px;"><li style="list-style:none;"><a>Negative Items Added To Database For Disputing Inaccuracies</a></li></ul></div>
+                                <div style="background-color:#37A; color:white; padding: 15px; margin-bottom: 12px;border-radius: 5px;"><ul style="margin: 0px;padding-left: 15px;"><li style="list-style:none;"><a>Provided with 15+ Page Initial Audit Report and The Action Plan</a></li></ul></div>*@
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <ul class="list-group list-group-flush">
+                                    <li style="color: #37A;" class="list-group-item">@Localizer["Provided with 15+ Page Initial Audit Report and The Action Plan"]</li>
+                                    <li style="color: #37A;" class="list-group-item">@Localizer["1st Round Of Dispute Letters Created And Sent To Credit Bureaus"]</li>
+
+                                </ul>
+                            </div>
+                            @*<div style="background-color:#37A; color:white; padding: 15px; margin-bottom: 12px; border-radius: 5px;"><ul style="margin: 0px;padding-left: 15px;"><li style="list-style:none;"><a>1st Round Of Dispute Letters Created And Sent To Credit Bureaus</a></li></ul></div>
+                                <div style="background-color:#37A; color:white; padding: 15px; margin-bottom: 12px; border-radius: 5px;"><ul style="margin: 0px;padding-left: 15px;"><li style="list-style:none;"><a>Personal Information Deleted For First Steps Of Restoration Process</a></li></ul></div>
+                                <div style="background-color:#37A; color:white; padding: 15px; margin-bottom: 12px; border-radius: 5px;"><ul style="margin: 0px;padding-left: 15px;"><li style="list-style:none;"><a>Provided With 24/7 Online Account Access To Client Portal</a></li></ul></div>*@
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <ul class="list-group list-group-flush">
+                                    <li style="color: #37A;" class="list-group-item">@Localizer["Personal Information Deleted For First Steps Of Restoration Process"]</li>
+                                    <li style="color: #37A;" class="list-group-item">@Localizer["Provided With 24/7 Online Account Access To Client Portal"]</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p style="text-align:center">@Localizer["A deletion fee is invoiced for the complete deletion of an item. The deletion fees below are per item and per bureau. The deletion of ANY item from ANY bureau counts as ONE (1) deletion. The deletion of any account or public record from all three credit bureaus counts as THREE (3) deletions. Once you have a balance with us for the items that were deleted, you will be billed no more than $75 a month until your balance is paid off. You will not be required to pay off your balance in full. Example, if there are 6 collections deleted, we will send you an invoice of $300, in which you will be required to pay $75 a month for 4 months"].</p>
+
+                    @*Card*@
+                    <div class="row cards-4">
+                        <div class="col-md-12">
+                            <div class="slider-container">
+                                <div class="swiper-container card-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["INQUIRES"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$10</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["Late Payments"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$10</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["COLLECTIONS"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$50</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["CHARGE-OFFS"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$50</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["FORECLOSURES"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$75</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["REPOSSESSIONS"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$75</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["EVICTIONS"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$100</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">@Localizer["PUBLIC RECORDS"]</h3>
+                                                    <p>@Localizer["PER ITEM - PER BUREAU"]</p>
+                                                    <p class="price">@Localizer["Starting at"] <span>$100</span></p>
+                                                </div>
+                                                <div class="button-container">
+                                                    <a class="btn-solid-reg page-scroll" target="_blank" href="https://www.identityiq.com/signup-personalinfo.aspx">@Localizer["Book now"]</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                </div> <!-- end of text-container-->
+            </div> <!-- end of col-->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of other-->
+<!-- end of credit -->
+<div id="" class="ex-basic-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumbs">
+                    @*<a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Privacy Policy</span>*@
+                </div> <!-- end of breadcrumbs -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of ex-basic-1 -->
+<!-- end of breadcrumbs -->
+@section scripts {
+    <script>
+
+        var cards = $('#credit .card-body');
+        var maxHeight = 0;
+
+        // Loop all cards and check height, if bigger than max then save it
+        for (var i = 0; i < cards.length; i++) {
+            if (maxHeight < $(cards[i]).outerHeight()) {
+                maxHeight = $(cards[i]).outerHeight();
+            }
+        }
+        // Set ALL card bodies to this height
+        for (var i = 0; i < cards.length; i++) {
+            $(cards[i]).height(maxHeight);
+        }
+
+        var cards2 = $('#program .card-body');
+        var maxHeight2 = 0;
+
+        // Loop all cards and check height, if bigger than max then save it
+        for (var i = 0; i < cards2.length; i++) {
+            if (maxHeight2 < $(cards2[i]).outerHeight()) {
+                maxHeight2 = $(cards2[i]).outerHeight();
+            }
+        }
+        // Set ALL card bodies to this height
+        for (var i = 0; i < cards2.length; i++) {
+            $(cards2[i]).height(maxHeight2);
+        }
+    </script>
+}
