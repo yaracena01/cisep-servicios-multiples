@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{30906D4B-6160-4D1E-93FC-8261753D340D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cisep/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="cisep/Controllers/HomeController.cs" Line="34" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cisep" expanded="True">
+            <Node name="cisep" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ServicesPageController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.cisep PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

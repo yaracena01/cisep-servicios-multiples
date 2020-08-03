@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cisep1.0\\cisep-servicios-multiples\\cisep\\cisep.csproj": {}
+    "/Users/pablorodriguez/Documents/new aupdate-CISEP/cisep-servicios-multiples/cisep/cisep.csproj": {}
   },
   "projects": {
-    "C:\\cisep1.0\\cisep-servicios-multiples\\cisep\\cisep.csproj": {
+    "/Users/pablorodriguez/Documents/new aupdate-CISEP/cisep-servicios-multiples/cisep/cisep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cisep1.0\\cisep-servicios-multiples\\cisep\\cisep.csproj",
+        "projectUniqueName": "/Users/pablorodriguez/Documents/new aupdate-CISEP/cisep-servicios-multiples/cisep/cisep.csproj",
         "projectName": "cisep",
-        "projectPath": "C:\\cisep1.0\\cisep-servicios-multiples\\cisep\\cisep.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\cisep1.0\\cisep-servicios-multiples\\cisep\\obj\\",
+        "projectPath": "/Users/pablorodriguez/Documents/new aupdate-CISEP/cisep-servicios-multiples/cisep/cisep.csproj",
+        "packagesPath": "/Users/pablorodriguez/.nuget/packages/",
+        "outputPath": "/Users/pablorodriguez/Documents/new aupdate-CISEP/cisep-servicios-multiples/cisep/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/pablorodriguez/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -112,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }
