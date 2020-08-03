@@ -936,6 +936,9 @@
   <data name="Testimonials" xml:space="preserve">
     <value>Testimonios</value>
   </data>
+  <data name="Thanks from CISEP" xml:space="preserve">
+    <value>Gracias de parte de CISEP</value>
+  </data>
   <data name="The language was changed to english." xml:space="preserve">
     <value>El idioma fue cambiado al español.</value>
   </data>
@@ -1028,6 +1031,9 @@
   </data>
   <data name="Witnessing Signatures" xml:space="preserve">
     <value>Testimonio de firmas</value>
+  </data>
+  <data name="You can choose more services on our home portal" xml:space="preserve">
+    <value>Puedes optar por mas servicios en nuestro portal de inicio.</value>
   </data>
   <data name="You can stop by our office and just use the contact form below for any questions and inquiries" xml:space="preserve">
     <value>Puede pasar por nuestra oficina y usar el formulario de contacto a continuación para cualquier pregunta o consulta.</value>

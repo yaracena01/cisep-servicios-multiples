@@ -258,7 +258,7 @@ namespace cisep.Controllers
         {
             _unitOfWork.Clients.Insert(client);
             _unitOfWork.Save();
-            return Json(new { success = true, clientName = client.First_name + " " + client.Last_name });
+            return Json(new { success = true, message = "You can choose more services on our home portal",  clientName = _localizer["Thanks from CISEP"] + " " + client.First_name + " " + client.Last_name });
         }
 
         public ActionResult flexPay(string code)

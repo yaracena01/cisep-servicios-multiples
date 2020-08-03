@@ -14,10 +14,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/21/2020 10:37:06</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>05/19/2020 19:00:55</publishTime>
+      <publishTime>07/28/2020 17:03:40</publishTime>
     </File>
     <File Include="appsettings.production.json">
-      <publishTime>07/17/2020 12:49:16</publishTime>
+      <publishTime>07/30/2020 19:57:53</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>08/12/2019 12:42:04</publishTime>
@@ -26,25 +26,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/24/2020 15:29:24</publishTime>
     </File>
     <File Include="cisep.deps.json">
-      <publishTime>07/17/2020 12:49:16</publishTime>
+      <publishTime>07/30/2020 19:57:53</publishTime>
     </File>
     <File Include="cisep.dll">
-      <publishTime>07/17/2020 12:49:05</publishTime>
+      <publishTime>07/30/2020 19:57:40</publishTime>
     </File>
     <File Include="cisep.exe">
-      <publishTime>07/17/2020 12:49:05</publishTime>
+      <publishTime>07/30/2020 19:57:40</publishTime>
     </File>
     <File Include="cisep.pdb">
-      <publishTime>07/17/2020 12:49:05</publishTime>
+      <publishTime>07/30/2020 19:57:40</publishTime>
     </File>
     <File Include="cisep.runtimeconfig.json">
       <publishTime>06/15/2020 09:56:41</publishTime>
     </File>
     <File Include="cisep.Views.dll">
-      <publishTime>07/17/2020 12:49:07</publishTime>
+      <publishTime>07/30/2020 19:57:43</publishTime>
     </File>
     <File Include="cisep.Views.pdb">
-      <publishTime>07/17/2020 12:49:07</publishTime>
+      <publishTime>07/30/2020 19:57:43</publishTime>
     </File>
     <File Include="ClosedXML.dll">
       <publishTime>04/26/2020 13:35:12</publishTime>
@@ -80,7 +80,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/12/2020 19:55:52</publishTime>
     </File>
     <File Include="es/cisep.resources.dll">
-      <publishTime>07/17/2020 12:49:05</publishTime>
+      <publishTime>07/30/2020 19:57:40</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -1292,13 +1292,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/29/2020 20:04:28</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/17/2020 12:49:16</publishTime>
+      <publishTime>07/30/2020 19:57:53</publishTime>
     </File>
     <File Include="wwwroot/css/animate.css">
       <publishTime>04/28/2020 17:12:46</publishTime>
     </File>
     <File Include="wwwroot/css/bootstrap.css">
-      <publishTime>06/30/2020 16:25:01</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/css/EmailTemplate.css">
       <publishTime>05/10/2020 11:28:50</publishTime>
@@ -1307,7 +1307,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2020 21:27:50</publishTime>
     </File>
     <File Include="wwwroot/css/fontValera.css">
-      <publishTime>06/30/2020 16:25:01</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/css/jquery.dataTables.min.css">
       <publishTime>04/28/2020 15:56:25</publishTime>
@@ -1316,22 +1316,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/01/2016 12:22:58</publishTime>
     </File>
     <File Include="wwwroot/css/PayServices.css">
-      <publishTime>07/15/2020 20:28:07</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/css/select2-bootstrap.min.css">
       <publishTime>06/02/2020 18:07:30</publishTime>
     </File>
     <File Include="wwwroot/css/select2.min.css">
-      <publishTime>06/30/2020 16:25:01</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>05/04/2020 19:45:41</publishTime>
     </File>
     <File Include="wwwroot/css/stepStyle.css">
-      <publishTime>06/30/2020 16:25:01</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/css/styles.css">
-      <publishTime>06/30/2020 16:25:01</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/css/styles_mantenimiento.css">
       <publishTime>04/28/2020 15:52:57</publishTime>
@@ -1448,31 +1448,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2018 03:38:52</publishTime>
     </File>
     <File Include="wwwroot/imagePay/pay06a22770-3ca8-44de-9753-1284ee6b0286GRAPHIC_DESIGN.png">
-      <publishTime>06/30/2020 16:25:01</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/pay61f60e7f-0e8b-457c-89a6-705a6f6f1bb1Camera_Security.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/pay78092546-ee2e-4af6-89e4-51d0dd593952Foto2.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/pay8f9f4547-a090-4cbf-a449-9a114f52dbbcNotary_Public.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/paya71281f2-0a20-4e0d-b098-d4969a121b56vehicle_title.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/paydd2b37b1-e0c1-4ee4-814d-86c53afb4fa0webstite.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/paye04cbb38-a3f0-4795-8834-e6e97a5734c8corporacionesServices.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/payf0352d41-997a-41d6-ab04-d8ade18c861bIMMIGRATION_FORM.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/imagePay/payfe15c018-bcb7-4b35-88a6-b475d3cf22bdinformation_tecnology.png">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/images/body-bg.jpg">
       <publishTime>06/22/2020 21:54:59</publishTime>
@@ -1482,6 +1482,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="wwwroot/images/HomeHeader2.png">
       <publishTime>04/24/2020 18:17:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/how-to-create-a-website-outline-template.jpg">
+      <publishTime>07/23/2020 16:08:10</publishTime>
     </File>
     <File Include="wwwroot/images/logo3.0.png">
       <publishTime>06/16/2020 21:43:03</publishTime>
@@ -1505,16 +1508,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/18/2020 08:26:11</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-11.jpg">
-      <publishTime>07/09/2020 20:50:19</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-12.jpg">
-      <publishTime>07/09/2020 20:45:41</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-13.jpg">
-      <publishTime>07/09/2020 20:52:54</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-14.png">
-      <publishTime>07/09/2020 21:09:21</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-2.jpg">
       <publishTime>06/18/2020 08:38:26</publishTime>
@@ -1523,7 +1526,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/18/2020 13:01:36</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-4.jpg">
-      <publishTime>07/09/2020 17:38:29</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-5.jpg">
       <publishTime>06/18/2020 08:30:03</publishTime>
@@ -1535,7 +1538,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/18/2020 08:17:14</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-8.jpg">
-      <publishTime>07/01/2019 12:55:28</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/images/testimonial-9.jpg">
       <publishTime>06/18/2020 08:24:12</publishTime>
@@ -1634,7 +1637,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/24/2020 09:26:15</publishTime>
     </File>
     <File Include="wwwroot/js/PayServices.js">
-      <publishTime>07/17/2020 12:18:26</publishTime>
+      <publishTime>07/30/2020 17:56:48</publishTime>
     </File>
     <File Include="wwwroot/js/popper.min.js">
       <publishTime>02/16/2019 22:54:56</publishTime>
@@ -1649,7 +1652,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/21/2020 10:37:07</publishTime>
     </File>
     <File Include="wwwroot/js/sweetalert.min.js">
-      <publishTime>07/02/2020 18:48:12</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/swiper.min.js">
       <publishTime>06/01/2020 21:20:31</publishTime>
@@ -1661,403 +1664,403 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/17/2016 22:01:40</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-steps/jquery.steps.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-steps/jquery.steps.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/additional-methods.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/additional-methods.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/jquery.validate.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/jquery.validate.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ar.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ar.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_az.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_az.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_bg.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_bg.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_bn_BD.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_bn_BD.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ca.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ca.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_cs.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_cs.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_da.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_da.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_de.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_de.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_el.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_el.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_es.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_es.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_es_AR.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_es_AR.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_es_PE.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_es_PE.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_et.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_et.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_eu.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_eu.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_fa.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_fa.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_fi.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_fi.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_fr.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_fr.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ge.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ge.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_gl.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_gl.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_he.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_he.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_hr.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_hr.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_hu.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_hu.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_hy_AM.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_hy_AM.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_id.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_id.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_is.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_is.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_it.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_it.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ja.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ja.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ka.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ka.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_kk.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_kk.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ko.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ko.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_lt.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_lt.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_lv.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_lv.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_mk.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_mk.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_my.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_my.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_nl.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_nl.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_no.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_no.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_pl.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_pl.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_pt_BR.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_pt_BR.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_pt_PT.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_pt_PT.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ro.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ro.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ru.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ru.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sd.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sd.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_si.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_si.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sk.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sk.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sl.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sl.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sr.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sr.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sr_lat.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sr_lat.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sv.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_sv.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_th.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_th.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_tj.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_tj.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_tr.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_tr.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_uk.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_uk.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ur.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_ur.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_vi.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_vi.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_zh.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_zh.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_zh_TW.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/messages_zh_TW.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_de.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_de.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_es_CL.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_es_CL.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_fi.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_fi.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_nl.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_nl.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_pt.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery-validation/dist/localization/methods_pt.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery/jquery-ui.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/jquery/jquery.min.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/js/vendor/minimalist-picker/dobpicker.js">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/jsonFiles/Months.json">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/jsonFiles/states_titlecase.json">
-      <publishTime>06/30/2020 16:25:02</publishTime>
+      <publishTime>07/17/2020 14:37:52</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
       <publishTime>04/21/2020 10:37:07</publishTime>

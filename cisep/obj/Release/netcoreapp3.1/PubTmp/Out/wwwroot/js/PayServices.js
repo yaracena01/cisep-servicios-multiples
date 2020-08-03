@@ -167,9 +167,10 @@
                     type: request_method,
                     data: form_data
                 }).done(function (response) { 
+                    console.log(response);
                     swal({
-                        title: "Gracias de parte de CISEP " + response.clientName,
-                        text: "Puedes optar por mas servicios en nuestro portal de inicio.",
+                        title: response.clientName,
+                        text: response.message,
                         icon: "success",
                         dangerMode: true,
                     })

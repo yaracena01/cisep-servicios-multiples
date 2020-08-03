@@ -53,288 +53,293 @@
                 </div>
             </form>
             <form method="POST" asp-action="AddClient" asp-controller="Home" id="signup-form" class="signup-form">
-                    <h3>
-                    </h3>
-                    <fieldset>
-                        <legend>
-                            <div class="header-title">
-                                <h4>@Localizer["Authorize Payment Form"]</h4>
-                                <a class="flex-pay hide-flex" href="#">
-                                    @Localizer["Click here flexible payment"]
-                                </a>
-                            </div>
-                            <span class="step-heading">@Localizer["Personal Information"]: </span>
-                        </legend>
-                        <div class="form-row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input name="First_name" type="text" class="form-control-input" id="First_name" required />
-                                    <label class="label-control required" for="First_name">@Localizer["First Name"]</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input name="Last_name" type="text" class="form-control-input" id="Last_name" required />
-                                    <label class="label-control required" for="Last_name">@Localizer["Last Name"]</label>
-                                </div>
+                <h3>
+                </h3>
+                <fieldset>
+                    <legend>
+                        <div class="header-title">
+                            <h4>@Localizer["Authorize Payment Form"]</h4>
+                            <a class="flex-pay hide-flex" href="#">
+                                @Localizer["Click here flexible payment"]
+                            </a>
+                        </div>
+                        <span class="step-heading">@Localizer["Personal Information"]: </span>
+                    </legend>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="First_name" type="text" class="form-control-input" id="First_name" required />
+                                <label class="label-control required" for="First_name">@Localizer["First Name"]</label>
                             </div>
                         </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="Last_name" type="text" class="form-control-input" id="Last_name" required />
+                                <label class="label-control required" for="Last_name">@Localizer["Last Name"]</label>
+                            </div>
+                        </div>
+                    </div>
 
-                        <div class="form-row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input name="Email" type="email" class="form-control-input" id="Email" required />
-                                    <label class="label-control required" for="Email">@Localizer["Email"]</label>
-                                </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="Email" type="email" class="form-control-input" id="Email" required />
+                                <label class="label-control required" for="Email">@Localizer["Email"]</label>
                             </div>
                         </div>
+                    </div>
 
-                        <legend>
-                            <span style="color:#37A">@Localizer["Billing Address"]: </span>
-                        </legend>
+                    <legend>
+                        <span style="color:#37A">@Localizer["Billing Address"]: </span>
+                    </legend>
 
-                        <div class="form-row">
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <input name="Address" type="text" class="form-control-input" id="Address" required />
-                                    <label class="label-control required" for="Address">@Localizer["Address"]</label>
-                                </div>
+                    <div class="form-row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input name="Address" type="text" class="form-control-input" id="Address" required />
+                                <label class="label-control required" for="Address">@Localizer["Address"]</label>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input name="City" type="text" class="form-control-input" id="City" required />
-                                    <label class="label-control required" for="City">@Localizer["City"]</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group floating-label floating-select">
-                                    <select name="State" id="State" class="form-control-select browser-default select2" required>
-                                        <option value=""></option>
-                                        @foreach (var item in ViewBag.state.State)
-                                        {
-                                            <option value="@item.Name">@item.Name</option>
-                                        }
-                                    </select>
-                                    <label class="label-control required active" for="State">@Localizer["Select Your State"]</label>
-                                </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="City" type="text" class="form-control-input" id="City" required />
+                                <label class="label-control required" for="City">@Localizer["City"]</label>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input name="Zip" type="number" class="form-control-input" id="Zip" required />
-                                    <label class="label-control required" for="Zip">@Localizer["Zip"]</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input name="Phone" type="number" class="form-control-input" id="Phone" required />
-                                    <label class="label-control required" for="Phone">@Localizer["Phone"]</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-12">
-                                <div class="form-check">
-                                    <label class="form-check-label" for="check2">
-                                        <input type="checkbox" class="form-check-input" id="check2" name="notification">@Localizer["Cell Phone - send me information alerts via text messaging or email, if available"].
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <h3>
-                    </h3>
-                    <fieldset>
-                        <legend>
-                            <span class="step-heading"></span>
-                        </legend>
-                        <div class="form-row hide-flex" id="select-service">
-                            <div class="col-lg-12" style="margin-bottom: 15px;">
-                                <a style="cursor:pointer; font-weight:bold; font-size: 16px !important;color: #37A;" id="search-icon">@Localizer["Select your services of"] @Localizer[ViewBag.service.Name], @Localizer["click here"].</a>
-                                <div id="display-search">
-                                    @foreach (var item in ViewBag.service.Services_Details)
+                        <div class="col-lg-6">
+                            <div class="form-group floating-label floating-select">
+                                <select name="State" id="State" class="form-control-select browser-default select2" required>
+                                    <option value=""></option>
+                                    @foreach (var item in ViewBag.state.State)
                                     {
-                                        if (item.Price != 0) { 
-                                            service_detail = item.Price + "$ - " + Localizer.GetString(item.Name);
-                                            <label class="form-check-label" for="@item.Name">
-                                                <input type="checkbox" class="checkServices" name="@Localizer.GetString(item.Name)" id="@item.Name" value="@item.Price" /> @service_detail
-                                            </label>
-                                        }
+                                        <option value="@item.Name">@item.Name</option>
                                     }
+                                </select>
+                                <label class="label-control required active" for="State">@Localizer["Select Your State"]</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="Zip" type="number" class="form-control-input" id="Zip" required />
+                                <label class="label-control required" for="Zip">@Localizer["Zip"]</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="Phone" type="number" class="form-control-input" id="Phone" required />
+                                <label class="label-control required" for="Phone">@Localizer["Phone"]</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-12">
+                            <div class="form-check">
+                                <label class="form-check-label" for="check2">
+                                    <input type="checkbox" class="form-check-input" id="check2" name="notification">@Localizer["Cell Phone - send me information alerts via text messaging or email, if available"].
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <h3>
+                </h3>
+                <fieldset>
+                    <legend>
+                        <span class="step-heading"></span>
+                    </legend>
+                    <div class="form-row hide-flex" id="select-service">
+                        <div class="col-lg-12" style="margin-bottom: 15px;">
+                            <a style="cursor:pointer; font-weight:bold; font-size: 16px !important;color: #37A;" id="search-icon">@Localizer["Select your services of"] @Localizer[ViewBag.service.Name], @Localizer["click here"].</a>
+                            <div id="display-search">
+                                @foreach (var item in ViewBag.service.Services_Details)
+                                {
+                                    if (item.Price != 0)
+                                    {
+                                        service_detail = item.Price + "$ - " + Localizer.GetString(item.Name);
+                                        <label class="form-check-label" for="@item.Name">
+                                            <input type="checkbox" class="checkServices" name="@Localizer.GetString(item.Name)" id="@item.Name" value="@item.Price" /> @service_detail
+                                        </label>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-12">
+                            <div class="hide-flex">
+                                <legend>
+                                    <span class="step-heading">@Localizer["Services selected"]:</span>
+                                </legend>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Quantity</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tb-services">
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-12">
-                                <div class="hide-flex">
-                                    <legend>
-                                        <span class="step-heading">@Localizer["Services selected"]:</span>
-                                    </legend>
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th>Name</th>
-                                                    <th>Quantity</th>
-                                                    <th>Price</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody id="tb-services">
-                                            </tbody>
-                                        </table>
-                                    </div>
-                              
-                                </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-8">
+                            <div class="form-group">
+                                <input name="Amount" type="text" value="0.00$" class="form-control-input" id="Amount" readonly="readonly" required />
+                                <label class="label-control lb-top required" for="Amount">@Localizer["Amount payable"]</label>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-8">
-                                <div class="form-group">
-                                    <input name="Amount" type="text" value="0.00$" class="form-control-input" id="Amount" readonly="readonly" required />
-                                    <label class="label-control lb-top required" for="Amount">@Localizer["Amount payable"]</label>
-                                </div>
+                    </div>                                                   
+                   
+                </fieldset>
+                <h3>
+                </h3>
+                <fieldset>
+                    <legend>
+                        <span class="step-heading">Billing information</span>
+                    </legend>                  
+                    <div class="form-row">
+                        <div class="col-lg-8">
+                            <div class="form-group">
+                                <input name="CreditCardNumber" type="number" class="form-control-input" id="CreditCardNumber" required />
+                                <span class="addStyle"><i></i></span>
+                                <label class="label-control required" for="CreditCardNumber">@Localizer["Credit Card Number"]</label>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-8">
-                                <div class="form-group">
-                                    <input name="CreditCardNumber" type="number" class="form-control-input" id="CreditCardNumber" required />
-                                    <span class="addStyle"><i></i></span>
-                                    <label class="label-control required" for="CreditCardNumber">@Localizer["Credit Card Number"]</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-6">
-                                <div class="form-group floating-label floating-select">
-                                    <select name="Month" id="Month" class="form-control-select select2" required>
-                                        <option value=""></option>
-                                        @foreach (var item in ViewBag.month.Month)
-                                        {
-                                            m++;
-                                            seg = m <= 9 ? "0" + m.ToString() : m.ToString();
-                                            <option value="@seg">@seg - @Localizer[item.Name]</option>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group floating-label floating-select">
+                                <select name="Month" id="Month" class="form-control-select select2" required>
+                                    <option value=""></option>
+                                    @foreach (var item in ViewBag.month.Month)
+                                    {
+                                        m++;
+                                        seg = m <= 9 ? "0" + m.ToString() : m.ToString();
+                                        <option value="@seg">@seg - @Localizer[item.Name]</option>
 
-                                        }
-                                    </select>
-                                    <label class="label-control required" for="Month">@Localizer["Select Expiration Month"]</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group floating-label floating-select">
-                                    <select name="Year" id="Year" class="form-control-select select2" required>
-                                        <option value=""></option>
-                                        <option value="2020">2020</option>
-                                        <option value="2021">2021</option>
-                                        <option value="2022">2022</option>
-                                        <option value="2023">2023</option>
-                                        <option value="2024">2024</option>
-                                        <option value="2025">2025</option>
-                                        <option value="2026">2026</option>
-                                        <option value="2027">2027</option>
-                                        <option value="2028">2028</option>
-                                        <option value="2029">2029</option>
-                                        <option value="2030">2030</option>
-                                        <option value="2031">2031</option>
-                                        <option value="2032">2032</option>
-                                        <option value="2033">2033</option>
-                                        <option value="2034">2034</option>
-                                        <option value="2035">2035</option>
-                                        <option value="2036">2036</option>
-                                    </select>
-                                    <label class="label-control required" for="Year">@Localizer["Select Expiration Year"]</label>
-                                </div>
+                                    }
+                                </select>
+                                <label class="label-control required" for="Month">@Localizer["Select Expiration Month"]</label>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input name="Cvc" type="number" class="form-control-input" id="Cvc" maxlength="3" required>
-                                    <label class="label-control required" for="Cvc">CVC</label>
-                                </div>
+                        <div class="col-lg-6">
+                            <div class="form-group floating-label floating-select">
+                                <select name="Year" id="Year" class="form-control-select select2" required>
+                                    <option value=""></option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2028">2028</option>
+                                    <option value="2029">2029</option>
+                                    <option value="2030">2030</option>
+                                    <option value="2031">2031</option>
+                                    <option value="2032">2032</option>
+                                    <option value="2033">2033</option>
+                                    <option value="2034">2034</option>
+                                    <option value="2035">2035</option>
+                                    <option value="2036">2036</option>
+                                </select>
+                                <label class="label-control required" for="Year">@Localizer["Select Expiration Year"]</label>
                             </div>
                         </div>
-                        <br />
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="Cvc" type="number" class="form-control-input" id="Cvc" maxlength="3" required>
+                                <label class="label-control required" for="Cvc">CVC</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
 
-                    </fieldset>
+                </fieldset>
+                <h3>
+                </h3>
+                <fieldset>
+                    <legend>
+                        <span class="step-heading">@Localizer["Confirm Details"]:</span>
+                    </legend>
+                    <div class="form-row table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>@Localizer["Full Name"]:</th>
+                                    <td id="fullname-val"></td>
+                                </tr>
+                                <tr class="space-row">
+                                    <th>@Localizer["Email Address"]:</th>
+                                    <td id="email-val"></td>
+                                </tr>
+                                <tr class="space-row">
+                                    <th>@Localizer["Address"]:</th>
+                                    <td id="address-val"></td>
+                                </tr>
+                                <tr class="space-row">
+                                    <th>@Localizer["City"]:</th>
+                                    <td id="city-val"></td>
+                                </tr>
+                                <tr class="space-row">
+                                    <th>@Localizer["State"]:</th>
+                                    <td id="state-val"></td>
+                                </tr>
 
-                    <h3>
-                    </h3>
-                    <fieldset>
+                                <tr class="space-row">
+                                    <th>@Localizer["Zip"]:</th>
+                                    <td id="zip-val"></td>
+                                </tr>
+                                <tr class="space-row">
+                                    <th>@Localizer["Phone Number"]:</th>
+                                    <td id="phone-val"></td>
+                                </tr>
+                                <tr class="space-row">
+                                    <th>@Localizer["Card Type"]:</th>
+                                    <td id="pay-val"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="hide-flex">
                         <legend>
-                            <span class="step-heading">@Localizer["Confirm Details"]:</span>
+                            <span class="step-heading">@Localizer["Services amount"]:</span>
                         </legend>
-                        <div class="form-row table-responsive">
+                        <div class="table-responsive">
                             <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <th>@Localizer["Full Name"]:</th>
-                                        <td id="fullname-val"></td>
-                                    </tr>
-                                    <tr class="space-row">
-                                        <th>@Localizer["Email Address"]:</th>
-                                        <td id="email-val"></td>
-                                    </tr>
-                                    <tr class="space-row">
-                                        <th>@Localizer["Address"]:</th>
-                                        <td id="address-val"></td>
-                                    </tr>
-                                    <tr class="space-row">
-                                        <th>@Localizer["City"]:</th>
-                                        <td id="city-val"></td>
-                                    </tr>
-                                    <tr class="space-row">
-                                        <th>@Localizer["State"]:</th>
-                                        <td id="state-val"></td>
-                                    </tr>
-
-                                    <tr class="space-row">
-                                        <th>@Localizer["Zip"]:</th>
-                                        <td id="zip-val"></td>
-                                    </tr>
-                                    <tr class="space-row">
-                                        <th>@Localizer["Phone Number"]:</th>
-                                        <td id="phone-val"></td>
-                                    </tr>
-                                    <tr class="space-row">
-                                        <th>@Localizer["Card Type"]:</th>
-                                        <td id="pay-val"></td>
-                                    </tr>
+                                <tbody id="tb-toTalservices">
                                 </tbody>
                             </table>
                         </div>
-                        <div class="hide-flex">
-                            <legend>
-                                <span class="step-heading">@Localizer["Services amount"]:</span>
-                            </legend>
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tbody id="tb-toTalservices">
-                                    </tbody>
-                                </table>
-                            </div>
 
+                    </div>
+                    <div class="show-flex">
+                        <legend>
+                            <span class="step-heading">@Localizer["Discount"]:</span>
+                        </legend>
+                        <div class="form-row table-responsive">
+                            <table class="table">
+                                <tbody id="tb-flex">
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="show-flex">
-                            <legend>
-                                <span class="step-heading">@Localizer["Discount"]:</span>
-                            </legend>
-                            <div class="form-row table-responsive">
-                                <table class="table">
-                                    <tbody id="tb-flex">
-                                    </tbody>
-                                </table>
-                            </div>
-                            <br />
-                        </div>
-                    </fieldset>
-
-                </form>
+                        <br />
+                    </div>
+                </fieldset>
+            </form>
         </div>
-
     </div>
 
 
