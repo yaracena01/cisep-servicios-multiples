@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfTjxOEOuGUyL3VJqkTLCZgAAAAACAAAAAAAQZgAAAAEAACAAAAB3tm3xXKAsiqfjarTXN0rYW5M5c803pjgiSNTiyG1ZKgAAAAAOgAAAAAIAACAAAADiY6wTkpo2NIAeyDmraXiWtQWLhvMzgqwpxAyL8epUhCAAAABWpn/FtDLWCp/oeU4J1pOe13HabfNp/Ut5Loaj4YEHaEAAAABjmCTJRpy9auN+AAZAgLPsEkgAJsSv9JcDzGxp4MwIUeaD1/eALJRQotwbCRavjRYANlVCa8dBi8Wj1mNIwlsP</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfTjxOEOuGUyL3VJqkTLCZgAAAAACAAAAAAAQZgAAAAEAACAAAADq0zjNLYB9Etwhg7Tjd8AfvjQFR++L4zHI6kzHAS4U2gAAAAAOgAAAAAIAACAAAACDV8pZXKTazBqh7thdXNfAm1s2eosRGiuWlpdd3d5EkSAAAABngeCegauiVNg2/YhPCfqtpV79ysc2JgSi0DiWKuSdH0AAAADzMURXbxn9ixva7bnwJGfOZeLiVei3TKM/pVASh6b/vcrU0iuKWJ2MrZT89ibIFPwg+m4h3mZh3JDJS+NpiKkM</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.site4now.net/cisep</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
@@ -14,10 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/21/2020 10:37:06</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>07/28/2020 17:03:40</publishTime>
-    </File>
-    <File Include="appsettings.production.json">
-      <publishTime>07/30/2020 19:57:53</publishTime>
+      <publishTime>08/03/2020 17:59:25</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>08/12/2019 12:42:04</publishTime>
@@ -26,25 +23,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/24/2020 15:29:24</publishTime>
     </File>
     <File Include="cisep.deps.json">
-      <publishTime>07/30/2020 19:57:53</publishTime>
+      <publishTime>08/04/2020 21:19:24</publishTime>
     </File>
     <File Include="cisep.dll">
-      <publishTime>07/30/2020 19:57:40</publishTime>
+      <publishTime>08/04/2020 21:19:12</publishTime>
     </File>
     <File Include="cisep.exe">
-      <publishTime>07/30/2020 19:57:40</publishTime>
+      <publishTime>08/04/2020 21:19:12</publishTime>
     </File>
     <File Include="cisep.pdb">
-      <publishTime>07/30/2020 19:57:40</publishTime>
+      <publishTime>08/04/2020 21:19:12</publishTime>
     </File>
     <File Include="cisep.runtimeconfig.json">
-      <publishTime>06/15/2020 09:56:41</publishTime>
+      <publishTime>08/04/2020 20:57:43</publishTime>
     </File>
     <File Include="cisep.Views.dll">
-      <publishTime>07/30/2020 19:57:43</publishTime>
+      <publishTime>08/04/2020 21:19:14</publishTime>
     </File>
     <File Include="cisep.Views.pdb">
-      <publishTime>07/30/2020 19:57:43</publishTime>
+      <publishTime>08/04/2020 21:19:14</publishTime>
     </File>
     <File Include="ClosedXML.dll">
       <publishTime>04/26/2020 13:35:12</publishTime>
@@ -80,7 +77,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/12/2020 19:55:52</publishTime>
     </File>
     <File Include="es/cisep.resources.dll">
-      <publishTime>07/30/2020 19:57:40</publishTime>
+      <publishTime>08/04/2020 21:19:12</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -152,7 +149,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="LazZiya.ExpressLocalization.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>05/19/2020 12:55:00</publishTime>
     </File>
     <File Include="LazZiya.TagHelpers.dll">
       <publishTime>04/05/2020 15:45:56</publishTime>
@@ -305,7 +302,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/04/2020 12:49:10</publishTime>
     </File>
     <File Include="NuGet.Frameworks.dll">
-      <publishTime>04/18/2020 21:50:01</publishTime>
+      <publishTime>04/24/2018 21:27:10</publishTime>
     </File>
     <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -353,7 +350,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/21/2020 00:34:38</publishTime>
     </File>
     <File Include="refs/Microsoft.AspNetCore.Authorization.Policy.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>02/21/2020 00:38:00</publishTime>
     </File>
     <File Include="refs/Microsoft.AspNetCore.Components.Authorization.dll">
       <publishTime>02/21/2020 00:36:52</publishTime>
@@ -377,7 +374,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/21/2020 00:38:16</publishTime>
     </File>
     <File Include="refs/Microsoft.AspNetCore.Cors.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>02/21/2020 00:38:00</publishTime>
     </File>
     <File Include="refs/Microsoft.AspNetCore.Cryptography.Internal.dll">
       <publishTime>02/21/2020 00:33:34</publishTime>
@@ -1211,19 +1208,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/15/2019 18:14:28</publishTime>
     </File>
     <File Include="runtimes/win-arm64/native/sni.dll">
-      <publishTime>04/18/2020 22:08:15</publishTime>
+      <publishTime>07/12/2017 11:24:24</publishTime>
     </File>
     <File Include="runtimes/win-x64/native/e_sqlite3.dll">
       <publishTime>08/15/2019 18:13:54</publishTime>
     </File>
     <File Include="runtimes/win-x64/native/sni.dll">
-      <publishTime>04/18/2020 22:08:15</publishTime>
+      <publishTime>07/12/2017 11:24:22</publishTime>
     </File>
     <File Include="runtimes/win-x86/native/e_sqlite3.dll">
       <publishTime>08/15/2019 18:13:34</publishTime>
     </File>
     <File Include="runtimes/win-x86/native/sni.dll">
-      <publishTime>04/18/2020 22:08:15</publishTime>
+      <publishTime>07/12/2017 11:24:22</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll">
       <publishTime>05/15/2018 13:29:40</publishTime>
@@ -1247,19 +1244,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/01/2019 17:23:56</publishTime>
     </File>
     <File Include="System.Composition.AttributedModel.dll">
-      <publishTime>04/18/2020 22:08:17</publishTime>
+      <publishTime>11/05/2016 04:55:42</publishTime>
     </File>
     <File Include="System.Composition.Convention.dll">
-      <publishTime>04/18/2020 22:08:17</publishTime>
+      <publishTime>11/05/2016 04:55:42</publishTime>
     </File>
     <File Include="System.Composition.Hosting.dll">
-      <publishTime>04/18/2020 22:08:18</publishTime>
+      <publishTime>11/05/2016 04:55:42</publishTime>
     </File>
     <File Include="System.Composition.Runtime.dll">
-      <publishTime>04/18/2020 22:08:18</publishTime>
+      <publishTime>11/05/2016 04:55:44</publishTime>
     </File>
     <File Include="System.Composition.TypedParts.dll">
-      <publishTime>04/18/2020 22:08:18</publishTime>
+      <publishTime>11/05/2016 04:55:46</publishTime>
     </File>
     <File Include="System.Configuration.ConfigurationManager.dll">
       <publishTime>05/15/2018 13:29:38</publishTime>
@@ -1292,7 +1289,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/29/2020 20:04:28</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/30/2020 19:57:53</publishTime>
+      <publishTime>08/04/2020 21:19:24</publishTime>
     </File>
     <File Include="wwwroot/css/animate.css">
       <publishTime>04/28/2020 17:12:46</publishTime>
@@ -1474,17 +1471,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/imagePay/payfe15c018-bcb7-4b35-88a6-b475d3cf22bdinformation_tecnology.png">
       <publishTime>07/17/2020 14:37:51</publishTime>
     </File>
-    <File Include="wwwroot/images/body-bg.jpg">
-      <publishTime>06/22/2020 21:54:59</publishTime>
-    </File>
     <File Include="wwwroot/images/down-arrow.png">
       <publishTime>06/18/2020 09:20:36</publishTime>
     </File>
     <File Include="wwwroot/images/HomeHeader2.png">
       <publishTime>04/24/2020 18:17:42</publishTime>
-    </File>
-    <File Include="wwwroot/images/how-to-create-a-website-outline-template.jpg">
-      <publishTime>07/23/2020 16:08:10</publishTime>
     </File>
     <File Include="wwwroot/images/logo3.0.png">
       <publishTime>06/16/2020 21:43:03</publishTime>
@@ -1637,7 +1628,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/24/2020 09:26:15</publishTime>
     </File>
     <File Include="wwwroot/js/PayServices.js">
-      <publishTime>07/30/2020 17:56:48</publishTime>
+      <publishTime>08/03/2020 17:59:25</publishTime>
     </File>
     <File Include="wwwroot/js/popper.min.js">
       <publishTime>02/16/2019 22:54:56</publishTime>
@@ -2230,10 +2221,5 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll">
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
-  </ItemGroup>
-  <ItemGroup>
-    <DestinationConnectionStrings Include="DefaultConnection">
-      <Value>Data Source=SQL5047.site4now.net%3bInitial Catalog=DB_A5E69E_cisepDB%3bUser Id=DB_A5E69E_cisepDB_admin%3bPassword=Abcd1234.%3b</Value>
-    </DestinationConnectionStrings>
   </ItemGroup>
 </Project>
