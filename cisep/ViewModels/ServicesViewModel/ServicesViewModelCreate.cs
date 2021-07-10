@@ -20,7 +20,7 @@ namespace cisep.ViewModel
         public string UrlName { get; set; } 
 
         public int Type_Services { get; set; }
-        public IList<services_detail> services_Details { get; set; }
+        public IList<Services_Details> services_Details { get; set; }
 
     }
 }

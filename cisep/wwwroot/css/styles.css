@@ -726,6 +726,16 @@ input[type='checkbox'] {
 		text-decoration: none;
 		transition: all 0.2s ease;
 		margin-right: 5px;
+
+		border-radius: 2px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		word-spacing: 2px;
+		color: #000000;
+		font-weight: normal;
+		text-decoration: none;
+		font-style: normal;
+		font-variant: normal;
+		text-transform: none;
 	}
 
 		

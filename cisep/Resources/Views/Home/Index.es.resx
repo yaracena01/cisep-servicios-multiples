@@ -330,6 +330,9 @@
   <data name="Contact" xml:space="preserve">
     <value>Contacto</value>
   </data>
+  <data name="Contact us:" xml:space="preserve">
+    <value>Contáctenos</value>
+  </data>
   <data name="Copy Certifications" xml:space="preserve">
     <value>Copiar certificaciones</value>
   </data>
@@ -491,9 +494,6 @@
   </data>
   <data name="General Tax Problems" xml:space="preserve">
     <value>Problemas generales de impuestos</value>
-  </data>
-  <data name="Get In Touch Using The Form" xml:space="preserve">
-    <value>Póngase en contacto usando el formulario</value>
   </data>
   <data name="Grants Deeds" xml:space="preserve">
     <value>Becas Escrituras</value>
@@ -956,6 +956,9 @@
   </data>
   <data name="Trust" xml:space="preserve">
     <value>Confiar</value>
+  </data>
+  <data name="Using the form" xml:space="preserve">
+    <value>Usando el formulario</value>
   </data>
   <data name="Vandal-Proof" xml:space="preserve">
     <value>Prueba de vandalismo</value>

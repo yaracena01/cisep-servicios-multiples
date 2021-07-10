@@ -1,0 +1,14 @@
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\bin\Release\netcoreapp3.1\CS.Service.deps.json
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\bin\Release\netcoreapp3.1\CS.Service.dll
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\bin\Release\netcoreapp3.1\CS.Service.pdb
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\bin\Release\netcoreapp3.1\CS.Data.dll
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\bin\Release\netcoreapp3.1\CS.Repository.dll
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\bin\Release\netcoreapp3.1\CS.Data.pdb
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\bin\Release\netcoreapp3.1\CS.Repository.pdb
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\obj\Release\netcoreapp3.1\CS.Service.csprojAssemblyReference.cache
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\obj\Release\netcoreapp3.1\CS.Service.AssemblyInfoInputs.cache
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\obj\Release\netcoreapp3.1\CS.Service.AssemblyInfo.cs
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\obj\Release\netcoreapp3.1\CS.Service.csproj.CoreCompileInputs.cache
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\obj\Release\netcoreapp3.1\CS.Service.csproj.CopyComplete
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\obj\Release\netcoreapp3.1\CS.Service.dll
+C:\cisep1.0\cisep-servicios-multiples\CS.Service\obj\Release\netcoreapp3.1\CS.Service.pdb

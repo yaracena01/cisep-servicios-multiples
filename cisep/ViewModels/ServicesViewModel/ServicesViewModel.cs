@@ -21,6 +21,6 @@ namespace cisep.ViewModels.ServicesViewModel
         public string Url { get; set; }
         public string UrlName { get; set; }
         public int Type_Services { get; set; }
-        public IList<services_detail> Services_Details { get; set; }
+        public IList<Services_Details> Services_Details { get; set; }
     }
 }

@@ -27,23 +27,20 @@ namespace cisep.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly cisepDBContext _context;
-        private readonly ILogger<HomeController> _logger;
         private readonly IUnitOfWork _unitOfWork;
         private IMapper _mapper;
-        private readonly IHostingEnvironment _hostingEnvironment;
+        private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IStringLocalizer<HomeController> _localizer;
 
-        public HomeController(cisepDBContext context, IUnitOfWork unitOfWork, IMapper mapper, IHostingEnvironment hostingEnvironment, IStringLocalizer<HomeController> localizer)
+        public HomeController(IUnitOfWork unitOfWork, IMapper mapper, IWebHostEnvironment webHostEnvironment, IStringLocalizer<HomeController> localizer)
         {
-            _context = context;
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _hostingEnvironment = hostingEnvironment;
+            _webHostEnvironment = webHostEnvironment;
             _localizer = localizer;
         }
 
-        public async Task<IActionResult> Index()
+        public ActionResult Index()
         {
             var model = _unitOfWork.Services.GetAll();
 
@@ -112,7 +109,7 @@ namespace cisep.Controllers
         {
             string body = string.Empty;
 
-            string rootFolder = Path.Combine(_hostingEnvironment.ContentRootPath, "Views", "Home");
+            string rootFolder = Path.Combine(_webHostEnvironment.ContentRootPath, "Views", "Home");
             string fileName = "EmailTemplate.cshtml";
             string filePath = Path.Combine(rootFolder, fileName);
             using (StreamReader reader = new StreamReader(filePath))
@@ -276,10 +273,6 @@ namespace cisep.Controllers
             }
             
         }
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+      
     }
 }

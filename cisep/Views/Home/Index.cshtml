@@ -37,6 +37,7 @@
         </div>
     </div>
 </div>
+
 <div class="navbar2 header py-2 navbar-custom" style="background:#fff;">
     <div class="container">
         <div class="row">
@@ -197,13 +198,22 @@
                                     @if (row.Url != "" && row.Url != null)
                                      {
                                 <div class="button-container">
-                                    @if (row.Id != 2060)
+
+                                    @if (row.Id == 2063)
                                     {
-                                        @Html.ActionLink(booknow, "PayServices", "Home", new { id = row.Id }, new { target = "_blank", @class = "btn-solid-reg page-scroll" })
+                                        <a class="btn-solid-reg page-scroll" target="_blank" href="/WebSite">@row.UrlName</a>
+                                    }
+                                    else if (row.Id == 2060)
+                                    {
+                                        <a class="btn-solid-reg page-scroll" target="_blank" href="/ServicesPage/CreditRepairIndex">@row.UrlName</a>
+                                    }
+                                    else if (row.Id == 2066)
+                                    {
+                                        <a class="btn-solid-reg page-scroll" target="_blank" href="/SecurityCamera">@row.UrlName</a>
                                     }
                                     else
                                     {
-                                        <a class="btn-solid-reg page-scroll" target="_blank" href="/ServicesPage/CreditRepairIndex">@row.UrlName</a>
+                                        @Html.ActionLink(booknow, "PayServices", "Home", new { id = row.Id }, new { target = "_blank", @class = "btn-solid-reg page-scroll" })
                                     }
 
 
@@ -236,6 +246,7 @@
         </div>
     </div>
 </div>
+
 <div class="slider">
     <div class="container">
         <div class="row">
@@ -400,13 +411,14 @@
         </div>
     </div>
 </div>
+
 <div id="contact" class="form-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <div class="text-container">
-                    <div class="section-title">@Localizer["Contact"]</div>
-                    <h2>@Localizer["Get In Touch Using The Form"]</h2>
+                    <div class="section-title">@Localizer["Contact us:"]</div>
+                    <h2>@Localizer["Using the form"]</h2>
                     <p>@Localizer["You can stop by our office and just use the contact form below for any questions and inquiries"]</p>
                     <ul class="list-unstyled li-space-lg" style="font-size: 14px;">
                         <li class="address">
@@ -482,6 +494,7 @@
         </div>
     </div>
 </div>
+
 <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
     <div class="row">
         <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>

@@ -1,0 +1,637 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>CISEP</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <style>
+        .description, .link {
+            font-family: 'Amatic SC', cursive;
+            text-align: center;
+        }
+
+        .description {
+            font-size: 35px;
+        }
+
+        .btn {
+            border: none;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            outline: none;
+            overflow: hidden;
+            position: relative;
+            color: #fff !important;
+            font-weight: 700;
+            font-size: 15px;
+            background-color: #222;
+            padding: 17px 60px;
+            margin: 0 auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+        }
+
+            .btn span {
+                position: relative;
+                z-index: 1;
+            }
+
+            .btn:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 490%;
+                width: 140%;
+                background: #190D82;
+                -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+                -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+                transform: translateX(-98%) translateY(-25%) rotate(45deg);
+            }
+
+            .btn:hover:after {
+                -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+                transform: translateX(-9%) translateY(-25%) rotate(45deg);
+            }
+
+        .link {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+            .link a {
+                color: #000;
+                font-size: 25px;
+            }
+    </style>
+
+    <!-- Google Fonts -->
+    @*<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">*@
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex">
+
+            <div class="logo mr-auto">
+                <h1 class="text-light"><a asp-action="Index" asp-controller="Home"><span>CISEP </span>CAMARA INSTALLATION</a></h1>
+            </div>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#header">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header><!-- End Header -->
+    <div id="home" class="slider-area">
+        <div class="bend niceties preview-2">
+            <div id="ensign-nivoslider" class="slides">
+                <img src="~/slyderCamera/slider6.png" alt="" title="#slider-direction-1" />
+                <img src="~/slyderCamera/slider2.png" alt="" title="#slider-direction-2" />
+                <img src="~/slyderCamera/slider3.png" alt="" title="#slider-direction-3" />
+            </div>
+
+            <!-- direction 1 -->
+            <div id="slider-direction-1" class="slider-direction slider-one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="slider-content text-left">
+                                <!-- layer 1 -->
+                                <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <h2 class="title1">The Best Multi Services</h2>
+                                 </div>
+                                <!-- layer 2 -->
+                                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <h1 class="title2">Helping Business Security & Peace of Mind for Your Family</h1>
+                                </div>
+                                <!-- layer 3 -->
+                                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                                    <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- direction 2 -->
+            <div id="slider-direction-2" class="slider-direction slider-two">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="slider-content text-left">
+                                <!-- layer 1 -->
+                                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <h2 class="title1">The Best Business Information </h2>
+                                </div>
+                                <!-- layer 2 -->
+                                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
+                                    <h1 class="title2">We're In The Business Of Get Quality Business Service</h1>
+                                </div>
+                                <!-- layer 3 -->
+                                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                                    <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- direction 3 -->
+            <div id="slider-direction-3" class="slider-direction slider-two">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="slider-content text-left">
+                                <!-- layer 1 -->
+                                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <h2 class="title1">The Best business Information </h2>
+                                </div>
+                                <!-- layer 2 -->
+                                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
+                                    <h1 class="title2">Helping Business Security & Peace of Mind for Your Family</h1>
+                                </div>
+                                <!-- layer 3 -->
+                                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                                    <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Slider -->
+
+    <main id="main">
+        <div id="services" class="services-area area-padding">
+            <div class="container">
+                <div class="row" style="text-align:center">
+                    <div style="width: 66.66666667%; margin:auto">
+                        <div class="text-container">
+                            <div class="vc_column-inner ">
+                                <div style="margin-bottom: 20px!important;">
+                                    <img width="122" height="26" src="https://x95sk1z0kq7410f121yjxo3e-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/img1-1.png" class="vc_single_image-img attachment-full" alt="">
+                                </div>
+                                <div class="aligncenter">
+                                    <h4 style="font-weight: 400;margin-bottom: 15px;letter-spacing: normal;font-size: 18px;">360 <sup>o</sup> Total Security Services</h4>
+                                    <h2 style="color:#190D82">Security Camara Installation@*<sup>360<sup>o</sup> </sup>Surveillance Systems*@</h2>
+                                </div>
+                                <div class="wpb_wrapper">
+                                    <p style="text-align: center; color:black">CISEP Multi-Services Help that your family, friends, employees, and property are safe.Our security systems start with a Digital Video Recorder (DVR) or Network Video Recorder (NVR) that include security grade hard drives that can store days, weeks, or even months of security footage. These security camera systems also feature remote access via the Internet, giving you peace of mind no matter where you are.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row cards-4 cards-3" style="padding-top: 1rem !important;">
+                            <div class="col-lg-4">
+                                <div class="card" style="margin-bottom: 2.625rem;">
+                                    <h3 class="card-title" style="text-align:center;margin-bottom: 20px;">Finger Print Access</h3>
+                                    <div class="element-item">
+                                        <img class="img-fluid" src="https://x95sk1z0kq7410f121yjxo3e-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/img2-3.jpg" alt="alternative">
+                                    </div>
+                                    <div class="" style="padding-top: 18px; text-align:center">
+                                        <p style="white-space: pre-line;color:black">Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card" style="margin-bottom: 2.625rem;">
+                                    <h3 class="card-title" style="text-align:center;margin-bottom: 20px;">Closed Circuit Cameras</h3>
+                                    <div class="element-item">
+                                        <img class="img-fluid" src="https://x95sk1z0kq7410f121yjxo3e-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/img3-2.jpg" alt="alternative">
+                                    </div>
+                                    <div style="padding-top: 18px; text-align:center">
+                                        <p style="white-space: pre-line;color:black">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card" style="margin-bottom: 2.625rem;">
+                                    <h3 class="card-title" style="text-align:center;margin-bottom: 20px;">Vandal Resistant Dome</h3>
+                                    <div class="element-item">
+                                        <img class="img-fluid" src="https://x95sk1z0kq7410f121yjxo3e-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/img4-2.jpg" alt="alternative">
+                                    </div>
+                                    <div class="" style="padding-top: 18px; text-align:center">
+                                        <p style="white-space: pre-line;color:black">Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Services Section -->
+        <!-- ======= Rviews Section ======= -->
+        <div class="reviews-area">
+            <div class="row no-gutters">
+                <div class="col-lg-4 py-0">
+                    <img src="~/imagenesCamara/ic-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-8 work-right-text d-flex align-items-center">
+                    <div class="px-5 py-5 py-lg-0">
+                        <h2>working with us</h2>
+                        <h6 style="color:#fff">You can expect a single installer who is able to service a home up to two stories in height using a standard two-section ladder for access to the camera mounting positions.</h6>
+                        <a href="#contact" class="ready-btn scrollto">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Rviews Section -->
+        <!-- ======= Pricing Section ======= -->
+        <div id="pricing" class="pricing-area area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline text-center">
+                            <h2>Pricing Table</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list">
+                            <h3>POE Security Cameras Systems <br /> <span>$80 / month</span></h3>
+                            <img class="img-fluid" src="~/imagenesCamara/s-sc.jpg" />
+                            <ol>
+                                <li>Smart Home Automation</li>
+                                <li>Video Surveillance</li>
+                                <li>Burglar Alarm System</li>
+                                <li>24/7 Monitoring						</li>
+                                <li>Mobile App							</li>
+                                <li>Motion detector						</li>
+                                <li>1080p HD video with night vision	</li>
+                                <li>HD Resolution & enhanced night vision</li>
+                                <li>Full HD color video					</li>
+                                <li>Automatic Alarm recordings			</li>
+                                <li>Mobile alert notifications			</li>
+                                <li>Indoor & Outdoor Cameras (optional)	</li>
+
+                            </ol>
+                            <button>sign up now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list active">
+                            @*<span class="saleon">top sale</span>*@
+                            <h3>AHD Camera Security Systems <br /> <span>$110 / month</span></h3>
+                            <img class="img-fluid" src="~/imagenesCamara/s-sc.jpg" />
+                            <ol>
+                                <li class="check">Online system</li>
+                                <li class="check">Full access</li>
+                                <li class="check">Free apps</li>
+                                <li class="check">Multiple slider</li>
+                                <li class="check cross">Free domin</li>
+                                <li class="check">Support unlimited</li>
+                                <li class="check">Payment online</li>
+                                <li class="check cross">Cash back</li>
+                            </ol>
+                            <button>sign up now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list">
+                            <h3>Cctv Camera Security Systems <br /> <span>$150 / month</span></h3>
+                            <img class="img-fluid" src="~/imagenesCamara/s-sc.jpg" />
+                            <ol>
+                                <li class="check">Online system</li>
+                                <li class="check">Full access</li>
+                                <li class="check">Free apps</li>
+                                <li class="check">Multiple slider</li>
+                                <li class="check">Free domin</li>
+                                <li class="check">Support unlimited</li>
+                                <li class="check">Payment online</li>
+                                <li class="check">Cash back</li>
+                            </ol>
+                            <button>sign up now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Pricing Section -->
+        <!-- ======= Portfolio Section ======= -->
+        <div id="portfolio" class="portfolio-area area-padding fix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline text-center">
+                            <h2>Our Portfolio</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wesome-project-1 fix">
+                    <!-- Start Portfolio -page -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="awesome-menu ">
+                            <ul class="project-menu">
+                                <li>
+                                    <a href="#" class="active" data-filter="*">All</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-filter=".development">Camera</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-filter=".design">Installation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row awesome-project-content">
+                    <!-- single-awesome-project start -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 design development">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="~/imageServices/61f60e7f-0e8b-457c-89a6-705a6f6f1bb1Camera_Security.png" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="~/imageServices/61f60e7f-0e8b-457c-89a6-705a6f6f1bb1Camera_Security.png">
+                                            <h4>Business City</h4>
+                                            <span>Installation</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-awesome-project end -->
+                    <!-- single-awesome-project start -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 design">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="~/imagenesCamara/s-ct.jpg" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="~/imagenesCamara/s-ct.jpg">
+                                            <h4>Security</h4>
+                                            <span>Camera</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-awesome-project end -->
+                    <!-- single-awesome-project start -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 development">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="~/imagenesCamara/s-sc.jpg" alt="" /></a>
+                                <div class="add-actions text-center text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="~/imagenesCamara/s-sc.jpg">
+                                            <h4>Confiable</h4>
+                                            <span>Protected</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-awesome-project end -->
+
+                </div>
+            </div>
+        </div><!-- End Portfolio Section -->
+
+        <div id="contact" class="contact-area">
+            <div class="contact-inner area-padding">
+                <div class="contact-overly"></div>
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-headline text-center">
+                                <h2>Contact us</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Start contact icon column -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="contact-icon text-center">
+                                <div class="single-icon">
+                                    <i class="fa fa-mobile"></i>
+                                    <p>
+                                        Call: +1 256-200-9773<br>
+                                        <span>@*Monday-Friday (9am-5pm)*@</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start contact icon column -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="contact-icon text-center">
+                                <div class="single-icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <p>
+                                        Email: Multi@cisepservices.com<br>
+                                        <span>Web: http://www.cisepservices.com</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start contact icon column -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="contact-icon text-center">
+                                <div class="single-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                    <p>
+                                        Location: 3845 Cypress Creek Parkway, Suite #350, Houston, Texas 77068-3567<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- Start Google Map -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <!-- Start Map -->
+                            <iframe src="https://maps.google.com/maps?q=CISEP%20Multi-Services%2C%20Cypress%20Creek%20Parkway%2C%20Houston%2C%20Texas&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <!-- End Map -->
+                        </div>
+                        <!-- End Google Map -->
+                        <!-- Start  contact -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="form contact-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <div class="validate"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                        <div class="validate"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                        <div class="validate"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                        <div class="validate"></div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+                                    <div class="text-center"><button type="submit">Send Message</button></div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- End Left contact -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <div class="footer-logo">
+                                    <h2><span>CISEP </span>Camera Installation</h2>
+                                </div>
+
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                                <div class="footer-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>information</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                                </p>
+                                <div class="footer-contacts">
+                                    <p><span>Tel:</span> +1 256-200-9773</p>
+                                    <p><span>Email:</span> Multi@cisepservices.com</p>
+                                    <p><span>Working Hours:</span> 00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>Instagram</h4>
+                                <div class="flicker-img">
+                                    <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="footer-area-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="copyright text-center">
+                                <p>
+                                    &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+                                </p>
+                            </div>
+                            <div class="credits">
+                                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+    </footer><!-- End  Footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/appear/jquery.appear.js"></script>
+    <script src="assets/vendor/knob/jquery.knob.js"></script>
+    <script src="assets/vendor/parallax/parallax.js"></script>
+    <script src="assets/vendor/wow/wow.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/nivo-slider/js/jquery.nivo.slider.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

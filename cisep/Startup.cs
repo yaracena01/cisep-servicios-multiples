@@ -29,7 +29,7 @@ namespace cisep
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         { 
-            services.AddDbContext<cisepDBContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<CisepDBContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddTransient<IUnitOfWork, UnitOfWorkRepo>();
             var config = new AutoMapper.MapperConfiguration(cfg =>
@@ -42,32 +42,27 @@ namespace cisep
 
             services.AddLocalization(opts => { opts.ResourcesPath = "Resources"; });
 
-            services.AddMvc()
-                .AddViewLocalization(
-                    LanguageViewLocationExpanderFormat.Suffix,
-                    opts => { opts.ResourcesPath = "Resources"; })
-                .AddDataAnnotationsLocalization();
+            services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix,opts => { 
+                opts.ResourcesPath = "Resources"; 
+            }).AddDataAnnotationsLocalization();
 
-            services.Configure<RequestLocalizationOptions>(
-               opts =>
-               {
-                   var supportedCultures = new List<CultureInfo>
+            services.Configure<RequestLocalizationOptions>(opts => {
+                var supportedCultures = new List<CultureInfo>
                    {
                         new CultureInfo("en"),
                         new CultureInfo("es")
                    };
 
-                   opts.DefaultRequestCulture = new RequestCulture("en");
-                   // Formatting numbers, dates, etc.
-                   opts.SupportedCultures = supportedCultures;
-                   // UI strings that we have localized.
-                   opts.SupportedUICultures = supportedCultures;
-                   opts.RequestCultureProviders = new List<IRequestCultureProvider>
-                    {
+                opts.DefaultRequestCulture = new RequestCulture("en");
+                // Formatting numbers, dates, etc.
+                opts.SupportedCultures = supportedCultures;
+                // UI strings that we have localized.
+                opts.SupportedUICultures = supportedCultures;
+                opts.RequestCultureProviders = new List<IRequestCultureProvider> {
                         new QueryStringRequestCultureProvider(),
                         new CookieRequestCultureProvider()
-                    };
-               });
+                };
+            });
 
             //services.AddRazorPages().AddRazorRuntimeCompilation();
         }
@@ -75,7 +70,7 @@ namespace cisep
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsProduction())
+            if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }

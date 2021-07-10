@@ -22,10 +22,10 @@ namespace cisep.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private IMapper _mapper;
-        private readonly cisepDBContext _context;
+        private readonly CisepDBContext _context;
         private readonly IHostingEnvironment _hostingEnvironment;
 
-        public ServicesController(cisepDBContext context, IUnitOfWork unitOfWork, IMapper mapper, IHostingEnvironment hostingEnvironment)
+        public ServicesController(CisepDBContext context, IUnitOfWork unitOfWork, IMapper mapper, IHostingEnvironment hostingEnvironment)
         {
             _context = context;
             _unitOfWork = unitOfWork;

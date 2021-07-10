@@ -1,0 +1,8 @@
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\bin\Release\netcoreapp3.1\CS.Data.deps.json
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\bin\Release\netcoreapp3.1\CS.Data.dll
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\bin\Release\netcoreapp3.1\CS.Data.pdb
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\obj\Release\netcoreapp3.1\CS.Data.AssemblyInfoInputs.cache
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\obj\Release\netcoreapp3.1\CS.Data.AssemblyInfo.cs
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\obj\Release\netcoreapp3.1\CS.Data.csproj.CoreCompileInputs.cache
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\obj\Release\netcoreapp3.1\CS.Data.dll
+C:\cisep1.0\cisep-servicios-multiples\CS.Data\obj\Release\netcoreapp3.1\CS.Data.pdb
